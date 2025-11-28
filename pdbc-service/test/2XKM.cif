@@ -1,0 +1,732 @@
+data_2XKM
+# 
+_entry.id   2XKM 
+# 
+_audit_conform.dict_name       mmcif_pdbx.dic 
+_audit_conform.dict_version    5.341 
+_audit_conform.dict_location   http://mmcif.pdb.org/dictionaries/ascii/mmcif_pdbx.dic 
+# 
+loop_
+_database_2.database_id 
+_database_2.database_code 
+PDB   2XKM         
+PDBE  EBI-44421    
+WWPDB D_1290044421 
+# 
+loop_
+_pdbx_database_related.db_name 
+_pdbx_database_related.db_id 
+_pdbx_database_related.content_type 
+_pdbx_database_related.details 
+PDB 1PJF unspecified 'SOLID STATE NMR STRUCTURE OF THE PF1 MAJOR COAT PROTEIN INMAGNETICALLY ALIGNED BACTERIOPHAGE' 
+PDB 1IFN unspecified 
+'TWO FORMS OF PF1 INOVIRUS: X-RAY DIFFRACTION STUDIES ON ASTRUCTURAL PHASE TRANSITION AND A CALCULATED LIBRATION' 
+PDB 3IFM unspecified . 
+PDB 1QL1 unspecified 'INOVIRUS (FILAMENTOUS BACTERIOPHAGE) STRAIN PF1 MAJOR COAT PROTEIN ASSEMBLY' 
+PDB 1PFI unspecified . 
+PDB 1IFM unspecified . 
+PDB 1QL2 unspecified 'INOVIRUS (FILAMENTOUS BACTERIOPHAGE) STRAIN PF1 MAJOR COAT PROTEIN ASSEMBLY' 
+PDB 2IFM unspecified . 
+PDB 4IFM unspecified . 
+PDB 2IFN unspecified . 
+# 
+_pdbx_database_status.status_code                     REL 
+_pdbx_database_status.entry_id                        2XKM 
+_pdbx_database_status.deposit_site                    PDBE 
+_pdbx_database_status.process_site                    PDBE 
+_pdbx_database_status.SG_entry                        . 
+_pdbx_database_status.recvd_initial_deposition_date   2010-07-09 
+_pdbx_database_status.pdb_format_compatible           Y 
+_pdbx_database_status.status_code_sf                  REL 
+_pdbx_database_status.status_code_mr                  REL 
+_pdbx_database_status.status_code_cs                  ? 
+_pdbx_database_status.methods_development_category    ? 
+_pdbx_database_status.status_code_nmr_data            ? 
+# 
+loop_
+_audit_author.name 
+_audit_author.pdbx_ordinal 
+'Straus, S.K.'     1 
+'P Scott, W.R.'    2 
+'Schwieters, C.D.' 3 
+'Marvin, D.A.'     4 
+# 
+loop_
+_citation.id 
+_citation.title 
+_citation.journal_abbrev 
+_citation.journal_volume 
+_citation.page_first 
+_citation.page_last 
+_citation.year 
+_citation.journal_id_ASTM 
+_citation.country 
+_citation.journal_id_ISSN 
+_citation.journal_id_CSD 
+_citation.book_publisher 
+_citation.pdbx_database_id_PubMed 
+_citation.pdbx_database_id_DOI 
+primary 'Consensus Structure of Pf1 Filamentous Bacteriophage from X-Ray Fibre Diffraction and Solid-State NMR.' Eur.Biophys.J. 40 
+221  ? 2011 EBJOE8 GW 0175-7571 0997 ? 21082179 10.1007/S00249-010-0640-9 
+1       'Structural Basis of the Temperature Transition of Pf1 Bacteriophage.' 'Protein Sci.'             14 1064 ? 2005 PRCIEI US 
+0961-8368 0795 ? 15741342 10.1110/PS.041220305      
+2       
+;Pf1 Filamentous Bacteriophage: Refinement of a Molecular Model by Simulated Annealing Using 3.3 A Resolution X-Ray Fibre Diffraction Data.
+;
+'Acta Crystallogr.,Sect.D' 51 792  ? 1995 ABCRE6 DK 0907-4449 0766 ? 15299811 10.1107/S0907444995003027 
+3       'The Hand of the Filamentous Bacteriophage Helix.' Eur.Biophys.J.             37 1077 ? 2008 EBJOE8 GW 0175-7571 0997 ? 
+18421454 10.1007/S00249-008-0327-7 
+4       'Dynamics of Telescoping Inovirus: A Mechanism for Assembly at Membrane Adhesions.' Int.J.Biol.Macromol.       11 159  ? 
+1989 IJBMDR UK 0141-8130 0708 ? 2489076  ?                         
+# 
+loop_
+_citation_author.citation_id 
+_citation_author.name 
+_citation_author.ordinal 
+_citation_author.identifier_ORCID 
+primary 'Straus, S.K.'     1  ? 
+primary 'Scott, W.R.'      2  ? 
+primary 'Schwieters, C.D.' 3  ? 
+primary 'Marvin, D.A.'     4  ? 
+1       'Thiriot, D.S.'    5  ? 
+1       'Nevzorov, A.A.'   6  ? 
+1       'Opella, S.J.'     7  ? 
+2       'Gonzalez, A.'     8  ? 
+2       'Nave, C.'         9  ? 
+2       'Marvin, D.A.'     10 ? 
+3       'Straus, S.K.'     11 ? 
+3       'Scott, W.R.P.'    12 ? 
+3       'Marvin, D.A.'     13 ? 
+4       'Marvin, D.A.'     14 ? 
+# 
+_cell.entry_id           2XKM 
+_cell.length_a           1.000 
+_cell.length_b           1.000 
+_cell.length_c           1.000 
+_cell.angle_alpha        90.00 
+_cell.angle_beta         90.00 
+_cell.angle_gamma        90.00 
+_cell.Z_PDB              1 
+_cell.pdbx_unique_axis   ? 
+# 
+_symmetry.entry_id                         2XKM 
+_symmetry.space_group_name_H-M             'P 1' 
+_symmetry.pdbx_full_space_group_name_H-M   ? 
+_symmetry.cell_setting                     ? 
+_symmetry.Int_Tables_number                1 
+# 
+_entity.id                         1 
+_entity.type                       polymer 
+_entity.src_method                 nat 
+_entity.pdbx_description           'CAPSID PROTEIN G8P' 
+_entity.formula_weight             4612.393 
+_entity.pdbx_number_of_molecules   1 
+_entity.pdbx_ec                    ? 
+_entity.pdbx_mutation              ? 
+_entity.pdbx_fragment              'RESIDUES 37-82' 
+_entity.details                    ? 
+# 
+_entity_name_com.entity_id   1 
+_entity_name_com.name        'MAJOR COAT PROTEIN, GENE 8 PROTEIN, G8P, COAT PROTEIN B, PF1 PHAGE COAT PROTEIN GENE 8' 
+# 
+_entity_poly.entity_id                      1 
+_entity_poly.type                           'polypeptide(L)' 
+_entity_poly.nstd_linkage                   no 
+_entity_poly.nstd_monomer                   no 
+_entity_poly.pdbx_seq_one_letter_code       GVIDTSAVESAITDGQGDMKAIGGYIVGALVILAVAGLIYSMLRKA 
+_entity_poly.pdbx_seq_one_letter_code_can   GVIDTSAVESAITDGQGDMKAIGGYIVGALVILAVAGLIYSMLRKA 
+_entity_poly.pdbx_strand_id                 A 
+_entity_poly.pdbx_target_identifier         ? 
+# 
+loop_
+_entity_poly_seq.entity_id 
+_entity_poly_seq.num 
+_entity_poly_seq.mon_id 
+_entity_poly_seq.hetero 
+1 1  GLY n 
+1 2  VAL n 
+1 3  ILE n 
+1 4  ASP n 
+1 5  THR n 
+1 6  SER n 
+1 7  ALA n 
+1 8  VAL n 
+1 9  GLU n 
+1 10 SER n 
+1 11 ALA n 
+1 12 ILE n 
+1 13 THR n 
+1 14 ASP n 
+1 15 GLY n 
+1 16 GLN n 
+1 17 GLY n 
+1 18 ASP n 
+1 19 MET n 
+1 20 LYS n 
+1 21 ALA n 
+1 22 ILE n 
+1 23 GLY n 
+1 24 GLY n 
+1 25 TYR n 
+1 26 ILE n 
+1 27 VAL n 
+1 28 GLY n 
+1 29 ALA n 
+1 30 LEU n 
+1 31 VAL n 
+1 32 ILE n 
+1 33 LEU n 
+1 34 ALA n 
+1 35 VAL n 
+1 36 ALA n 
+1 37 GLY n 
+1 38 LEU n 
+1 39 ILE n 
+1 40 TYR n 
+1 41 SER n 
+1 42 MET n 
+1 43 LEU n 
+1 44 ARG n 
+1 45 LYS n 
+1 46 ALA n 
+# 
+_entity_src_nat.entity_id                  1 
+_entity_src_nat.pdbx_src_id                1 
+_entity_src_nat.pdbx_alt_source_flag       sample 
+_entity_src_nat.pdbx_beg_seq_num           ? 
+_entity_src_nat.pdbx_end_seq_num           ? 
+_entity_src_nat.common_name                ? 
+_entity_src_nat.pdbx_organism_scientific   'PSEUDOMONAS PHAGE PF1' 
+_entity_src_nat.pdbx_ncbi_taxonomy_id      10871 
+_entity_src_nat.genus                      ? 
+_entity_src_nat.species                    ? 
+_entity_src_nat.strain                     ? 
+_entity_src_nat.tissue                     ? 
+_entity_src_nat.tissue_fraction            ? 
+_entity_src_nat.pdbx_secretion             ? 
+_entity_src_nat.pdbx_fragment              ? 
+_entity_src_nat.pdbx_variant               ? 
+_entity_src_nat.pdbx_cell_line             ? 
+_entity_src_nat.pdbx_atcc                  25102-B1 
+_entity_src_nat.pdbx_cellular_location     ? 
+_entity_src_nat.pdbx_organ                 ? 
+_entity_src_nat.pdbx_organelle             ? 
+_entity_src_nat.pdbx_cell                  ? 
+_entity_src_nat.pdbx_plasmid_name          ? 
+_entity_src_nat.pdbx_plasmid_details       ? 
+_entity_src_nat.details                    ? 
+# 
+_struct_ref.id                         1 
+_struct_ref.db_name                    UNP 
+_struct_ref.db_code                    CAPSD_BPPF1 
+_struct_ref.entity_id                  1 
+_struct_ref.pdbx_seq_one_letter_code   ? 
+_struct_ref.pdbx_align_begin           ? 
+_struct_ref.pdbx_db_accession          P03621 
+_struct_ref.pdbx_db_isoform            ? 
+# 
+_struct_ref_seq.align_id                      1 
+_struct_ref_seq.ref_id                        1 
+_struct_ref_seq.pdbx_PDB_id_code              2XKM 
+_struct_ref_seq.pdbx_strand_id                A 
+_struct_ref_seq.seq_align_beg                 1 
+_struct_ref_seq.pdbx_seq_align_beg_ins_code   ? 
+_struct_ref_seq.seq_align_end                 46 
+_struct_ref_seq.pdbx_seq_align_end_ins_code   ? 
+_struct_ref_seq.pdbx_db_accession             P03621 
+_struct_ref_seq.db_align_beg                  37 
+_struct_ref_seq.pdbx_db_align_beg_ins_code    ? 
+_struct_ref_seq.db_align_end                  82 
+_struct_ref_seq.pdbx_db_align_end_ins_code    ? 
+_struct_ref_seq.pdbx_auth_seq_align_beg       1 
+_struct_ref_seq.pdbx_auth_seq_align_end       46 
+# 
+loop_
+_chem_comp.id 
+_chem_comp.type 
+_chem_comp.mon_nstd_flag 
+_chem_comp.name 
+_chem_comp.pdbx_synonyms 
+_chem_comp.formula 
+_chem_comp.formula_weight 
+ALA 'L-peptide linking' y ALANINE         ? 'C3 H7 N O2'     89.093  
+ARG 'L-peptide linking' y ARGININE        ? 'C6 H15 N4 O2 1' 175.209 
+ASP 'L-peptide linking' y 'ASPARTIC ACID' ? 'C4 H7 N O4'     133.103 
+GLN 'L-peptide linking' y GLUTAMINE       ? 'C5 H10 N2 O3'   146.144 
+GLU 'L-peptide linking' y 'GLUTAMIC ACID' ? 'C5 H9 N O4'     147.129 
+GLY 'peptide linking'   y GLYCINE         ? 'C2 H5 N O2'     75.067  
+ILE 'L-peptide linking' y ISOLEUCINE      ? 'C6 H13 N O2'    131.173 
+LEU 'L-peptide linking' y LEUCINE         ? 'C6 H13 N O2'    131.173 
+LYS 'L-peptide linking' y LYSINE          ? 'C6 H15 N2 O2 1' 147.195 
+MET 'L-peptide linking' y METHIONINE      ? 'C5 H11 N O2 S'  149.211 
+SER 'L-peptide linking' y SERINE          ? 'C3 H7 N O3'     105.093 
+THR 'L-peptide linking' y THREONINE       ? 'C4 H9 N O3'     119.119 
+TYR 'L-peptide linking' y TYROSINE        ? 'C9 H11 N O3'    181.189 
+VAL 'L-peptide linking' y VALINE          ? 'C5 H11 N O2'    117.146 
+# 
+_pdbx_nmr_ensemble.entry_id                             2XKM 
+_pdbx_nmr_ensemble.conformers_calculated_total_number   ? 
+_pdbx_nmr_ensemble.conformers_submitted_total_number    1 
+_pdbx_nmr_ensemble.conformer_selection_criteria         ? 
+# 
+loop_
+_exptl.entry_id 
+_exptl.method 
+_exptl.crystals_number 
+2XKM 'FIBER DIFFRACTION' ? 
+2XKM 'SOLID-STATE NMR'   ? 
+# 
+_exptl_crystal.id                    1 
+_exptl_crystal.density_meas          ? 
+_exptl_crystal.density_Matthews      ? 
+_exptl_crystal.density_percent_sol   ? 
+_exptl_crystal.description           NONE 
+# 
+_diffrn.id                     1 
+_diffrn.ambient_temp           277 
+_diffrn.ambient_temp_details   ? 
+_diffrn.crystal_id             1 
+# 
+_diffrn_radiation.diffrn_id                        1 
+_diffrn_radiation.wavelength_id                    1 
+_diffrn_radiation.pdbx_monochromatic_or_laue_m_l   M 
+_diffrn_radiation.monochromator                    ? 
+_diffrn_radiation.pdbx_diffrn_protocol             'SINGLE WAVELENGTH' 
+_diffrn_radiation.pdbx_scattering_type             x-ray 
+# 
+_diffrn_radiation_wavelength.id           1 
+_diffrn_radiation_wavelength.wavelength   1.5418 
+_diffrn_radiation_wavelength.wt           1.0 
+# 
+_diffrn_source.diffrn_id                   1 
+_diffrn_source.source                      'ROTATING ANODE' 
+_diffrn_source.type                        ? 
+_diffrn_source.pdbx_synchrotron_site       ? 
+_diffrn_source.pdbx_synchrotron_beamline   ? 
+_diffrn_source.pdbx_wavelength             1.5418 
+_diffrn_source.pdbx_wavelength_list        ? 
+# 
+_reflns.pdbx_diffrn_id               1 
+_reflns.pdbx_ordinal                 1 
+_reflns.entry_id                     2XKM 
+_reflns.observed_criterion_sigma_I   0.8 
+_reflns.observed_criterion_sigma_F   ? 
+_reflns.d_resolution_low             12.00 
+_reflns.d_resolution_high            2.60 
+_reflns.number_obs                   3548 
+_reflns.number_all                   ? 
+_reflns.percent_possible_obs         ? 
+_reflns.pdbx_Rmerge_I_obs            ? 
+_reflns.pdbx_Rsym_value              ? 
+_reflns.pdbx_netI_over_sigmaI        ? 
+_reflns.B_iso_Wilson_estimate        ? 
+_reflns.pdbx_redundancy              ? 
+# 
+_refine.pdbx_refine_id                           'FIBER DIFFRACTION' 
+_refine.entry_id                                 2XKM 
+_refine.pdbx_diffrn_id                           1 
+_refine.pdbx_TLS_residual_ADP_flag               ? 
+_refine.ls_number_reflns_obs                     ? 
+_refine.ls_number_reflns_all                     ? 
+_refine.pdbx_ls_sigma_I                          ? 
+_refine.pdbx_ls_sigma_F                          ? 
+_refine.pdbx_data_cutoff_high_absF               ? 
+_refine.pdbx_data_cutoff_low_absF                ? 
+_refine.pdbx_data_cutoff_high_rms_absF           ? 
+_refine.ls_d_res_low                             ? 
+_refine.ls_d_res_high                            3.30 
+_refine.ls_percent_reflns_obs                    ? 
+_refine.ls_R_factor_obs                          ? 
+_refine.ls_R_factor_all                          ? 
+_refine.ls_R_factor_R_work                       ? 
+_refine.ls_R_factor_R_free                       ? 
+_refine.ls_R_factor_R_free_error                 ? 
+_refine.ls_R_factor_R_free_error_details         ? 
+_refine.ls_percent_reflns_R_free                 ? 
+_refine.ls_number_reflns_R_free                  ? 
+_refine.ls_number_parameters                     ? 
+_refine.ls_number_restraints                     ? 
+_refine.occupancy_min                            ? 
+_refine.occupancy_max                            ? 
+_refine.correlation_coeff_Fo_to_Fc               ? 
+_refine.correlation_coeff_Fo_to_Fc_free          ? 
+_refine.B_iso_mean                               ? 
+_refine.aniso_B[1][1]                            ? 
+_refine.aniso_B[2][2]                            ? 
+_refine.aniso_B[3][3]                            ? 
+_refine.aniso_B[1][2]                            ? 
+_refine.aniso_B[1][3]                            ? 
+_refine.aniso_B[2][3]                            ? 
+_refine.solvent_model_details                    ? 
+_refine.solvent_model_param_ksol                 ? 
+_refine.solvent_model_param_bsol                 ? 
+_refine.pdbx_solvent_vdw_probe_radii             ? 
+_refine.pdbx_solvent_ion_probe_radii             ? 
+_refine.pdbx_solvent_shrinkage_radii             ? 
+_refine.pdbx_ls_cross_valid_method               ? 
+_refine.details                                  ? 
+_refine.pdbx_starting_model                      'PDB ENTRY 4IFM' 
+_refine.pdbx_method_to_determine_struct          'MOLECULAR REPLACEMENT' 
+_refine.pdbx_isotropic_thermal_model             ? 
+_refine.pdbx_stereochemistry_target_values       ? 
+_refine.pdbx_stereochem_target_val_spec_case     ? 
+_refine.pdbx_R_Free_selection_details            ? 
+_refine.pdbx_overall_ESU_R                       ? 
+_refine.pdbx_overall_ESU_R_Free                  ? 
+_refine.overall_SU_ML                            ? 
+_refine.pdbx_overall_phase_error                 ? 
+_refine.overall_SU_B                             ? 
+_refine.overall_SU_R_Cruickshank_DPI             ? 
+_refine.pdbx_overall_SU_R_free_Cruickshank_DPI   ? 
+_refine.pdbx_overall_SU_R_Blow_DPI               ? 
+_refine.pdbx_overall_SU_R_free_Blow_DPI          ? 
+# 
+_refine_hist.pdbx_refine_id                   'FIBER DIFFRACTION' 
+_refine_hist.cycle_id                         LAST 
+_refine_hist.pdbx_number_atoms_protein        322 
+_refine_hist.pdbx_number_atoms_nucleic_acid   0 
+_refine_hist.pdbx_number_atoms_ligand         0 
+_refine_hist.number_atoms_solvent             0 
+_refine_hist.number_atoms_total               322 
+_refine_hist.d_res_high                       3.30 
+_refine_hist.d_res_low                        . 
+# 
+_struct.entry_id                  2XKM 
+_struct.title                     
+'Consensus structure of Pf1 filamentous bacteriophage from X-ray fibre diffraction and solid-state NMR' 
+_struct.pdbx_descriptor           'CAPSID PROTEIN G8P' 
+_struct.pdbx_model_details        ? 
+_struct.pdbx_CASP_flag            ? 
+_struct.pdbx_model_type_details   ? 
+# 
+_struct_keywords.entry_id        2XKM 
+_struct_keywords.pdbx_keywords   'VIRAL PROTEIN' 
+_struct_keywords.text            'VIRAL PROTEIN, CAPSID PROTEIN, TRANSMEMBRANE, VIRION, VIRUS COAT PROTEIN' 
+# 
+_struct_asym.id                            A 
+_struct_asym.pdbx_blank_PDB_chainid_flag   N 
+_struct_asym.pdbx_modified                 N 
+_struct_asym.entity_id                     1 
+_struct_asym.details                       ? 
+# 
+_struct_biol.id        1 
+_struct_biol.details   
+;THE ASSEMBLY REPRESENTED IN THIS ENTRY HAS REGULAR          
+ HELICAL SYMMETRY WITH THE FOLLOWING PARAMETERS:                      
+ ROTATION PER SUBUNIT (TWIST) = 65.915 DEGREES                        
+ RISE PER SUBUNIT (HEIGHT) = 3.05 ANGSTROMS                           
+ COORDINATES ARE GIVEN FOR A SINGLE ASYMMETRIC UNIT OF THE            
+ COAT PROTEIN ASSEMBLY. THE COMPLETE PROTEIN ASSEMBLY                 
+ CONTAINS SEVERAL THOUSAND ASYMMETRIC UNITS; THE EXACT                
+ NUMBER DEPENDS ON THE LENGTH OF THE DNA. THE PROTEIN                 
+ ASSEMBLY FORMS A CYLINDRICAL SHELL SURROUNDING A DNA CORE.
+;
+# 
+_struct_conf.conf_type_id            HELX_P 
+_struct_conf.id                      HELX_P1 
+_struct_conf.pdbx_PDB_helix_id       1 
+_struct_conf.beg_label_comp_id       THR 
+_struct_conf.beg_label_asym_id       A 
+_struct_conf.beg_label_seq_id        5 
+_struct_conf.pdbx_beg_PDB_ins_code   ? 
+_struct_conf.end_label_comp_id       ALA 
+_struct_conf.end_label_asym_id       A 
+_struct_conf.end_label_seq_id        46 
+_struct_conf.pdbx_end_PDB_ins_code   ? 
+_struct_conf.beg_auth_comp_id        THR 
+_struct_conf.beg_auth_asym_id        A 
+_struct_conf.beg_auth_seq_id         5 
+_struct_conf.end_auth_comp_id        ALA 
+_struct_conf.end_auth_asym_id        A 
+_struct_conf.end_auth_seq_id         46 
+_struct_conf.pdbx_PDB_helix_class    1 
+_struct_conf.details                 ? 
+_struct_conf.pdbx_PDB_helix_length   42 
+# 
+_struct_conf_type.id          HELX_P 
+_struct_conf_type.criteria    ? 
+_struct_conf_type.reference   ? 
+# 
+_database_PDB_matrix.entry_id          2XKM 
+_database_PDB_matrix.origx[1][1]       1.000000 
+_database_PDB_matrix.origx[1][2]       0.000000 
+_database_PDB_matrix.origx[1][3]       0.000000 
+_database_PDB_matrix.origx[2][1]       0.000000 
+_database_PDB_matrix.origx[2][2]       1.000000 
+_database_PDB_matrix.origx[2][3]       0.000000 
+_database_PDB_matrix.origx[3][1]       0.000000 
+_database_PDB_matrix.origx[3][2]       0.000000 
+_database_PDB_matrix.origx[3][3]       1.000000 
+_database_PDB_matrix.origx_vector[1]   0.00000 
+_database_PDB_matrix.origx_vector[2]   0.00000 
+_database_PDB_matrix.origx_vector[3]   0.00000 
+# 
+_atom_sites.entry_id                    2XKM 
+_atom_sites.fract_transf_matrix[1][1]   1.000000 
+_atom_sites.fract_transf_matrix[1][2]   0.000000 
+_atom_sites.fract_transf_matrix[1][3]   0.000000 
+_atom_sites.fract_transf_matrix[2][1]   0.000000 
+_atom_sites.fract_transf_matrix[2][2]   1.000000 
+_atom_sites.fract_transf_matrix[2][3]   0.000000 
+_atom_sites.fract_transf_matrix[3][1]   0.000000 
+_atom_sites.fract_transf_matrix[3][2]   0.000000 
+_atom_sites.fract_transf_matrix[3][3]   1.000000 
+_atom_sites.fract_transf_vector[1]      0.00000 
+_atom_sites.fract_transf_vector[2]      0.00000 
+_atom_sites.fract_transf_vector[3]      0.00000 
+# 
+loop_
+_atom_type.symbol 
+C 
+H 
+N 
+O 
+S 
+# 
+loop_
+_pdbx_poly_seq_scheme.asym_id 
+_pdbx_poly_seq_scheme.entity_id 
+_pdbx_poly_seq_scheme.seq_id 
+_pdbx_poly_seq_scheme.mon_id 
+_pdbx_poly_seq_scheme.ndb_seq_num 
+_pdbx_poly_seq_scheme.pdb_seq_num 
+_pdbx_poly_seq_scheme.auth_seq_num 
+_pdbx_poly_seq_scheme.pdb_mon_id 
+_pdbx_poly_seq_scheme.auth_mon_id 
+_pdbx_poly_seq_scheme.pdb_strand_id 
+_pdbx_poly_seq_scheme.pdb_ins_code 
+_pdbx_poly_seq_scheme.hetero 
+A 1 1  GLY 1  1  1  GLY GLY A . n 
+A 1 2  VAL 2  2  2  VAL VAL A . n 
+A 1 3  ILE 3  3  3  ILE ILE A . n 
+A 1 4  ASP 4  4  4  ASP ASP A . n 
+A 1 5  THR 5  5  5  THR THR A . n 
+A 1 6  SER 6  6  6  SER SER A . n 
+A 1 7  ALA 7  7  7  ALA ALA A . n 
+A 1 8  VAL 8  8  8  VAL VAL A . n 
+A 1 9  GLU 9  9  9  GLU GLU A . n 
+A 1 10 SER 10 10 10 SER SER A . n 
+A 1 11 ALA 11 11 11 ALA ALA A . n 
+A 1 12 ILE 12 12 12 ILE ILE A . n 
+A 1 13 THR 13 13 13 THR THR A . n 
+A 1 14 ASP 14 14 14 ASP ASP A . n 
+A 1 15 GLY 15 15 15 GLY GLY A . n 
+A 1 16 GLN 16 16 16 GLN GLN A . n 
+A 1 17 GLY 17 17 17 GLY GLY A . n 
+A 1 18 ASP 18 18 18 ASP ASP A . n 
+A 1 19 MET 19 19 19 MET MET A . n 
+A 1 20 LYS 20 20 20 LYS LYS A . n 
+A 1 21 ALA 21 21 21 ALA ALA A . n 
+A 1 22 ILE 22 22 22 ILE ILE A . n 
+A 1 23 GLY 23 23 23 GLY GLY A . n 
+A 1 24 GLY 24 24 24 GLY GLY A . n 
+A 1 25 TYR 25 25 25 TYR TYR A . n 
+A 1 26 ILE 26 26 26 ILE ILE A . n 
+A 1 27 VAL 27 27 27 VAL VAL A . n 
+A 1 28 GLY 28 28 28 GLY GLY A . n 
+A 1 29 ALA 29 29 29 ALA ALA A . n 
+A 1 30 LEU 30 30 30 LEU LEU A . n 
+A 1 31 VAL 31 31 31 VAL VAL A . n 
+A 1 32 ILE 32 32 32 ILE ILE A . n 
+A 1 33 LEU 33 33 33 LEU LEU A . n 
+A 1 34 ALA 34 34 34 ALA ALA A . n 
+A 1 35 VAL 35 35 35 VAL VAL A . n 
+A 1 36 ALA 36 36 36 ALA ALA A . n 
+A 1 37 GLY 37 37 37 GLY GLY A . n 
+A 1 38 LEU 38 38 38 LEU LEU A . n 
+A 1 39 ILE 39 39 39 ILE ILE A . n 
+A 1 40 TYR 40 40 40 TYR TYR A . n 
+A 1 41 SER 41 41 41 SER SER A . n 
+A 1 42 MET 42 42 42 MET MET A . n 
+A 1 43 LEU 43 43 43 LEU LEU A . n 
+A 1 44 ARG 44 44 44 ARG ARG A . n 
+A 1 45 LYS 45 45 45 LYS LYS A . n 
+A 1 46 ALA 46 46 46 ALA ALA A . n 
+# 
+loop_
+_pdbx_struct_assembly.id 
+_pdbx_struct_assembly.details 
+_pdbx_struct_assembly.method_details 
+_pdbx_struct_assembly.oligomeric_details 
+_pdbx_struct_assembly.oligomeric_count 
+1 'representative helical assembly'            ? helical   35 
+2 'helical asymmetric unit'                    ? monomeric 1  
+3 'helical asymmetric unit, std helical frame' ? monomeric 1  
+# 
+loop_
+_pdbx_struct_assembly_gen.assembly_id 
+_pdbx_struct_assembly_gen.oper_expression 
+_pdbx_struct_assembly_gen.asym_id_list 
+1 '(1-35)' A 
+2 18       A 
+3 H        A 
+# 
+loop_
+_pdbx_struct_oper_list.id 
+_pdbx_struct_oper_list.type 
+_pdbx_struct_oper_list.name 
+_pdbx_struct_oper_list.symmetry_operation 
+_pdbx_struct_oper_list.matrix[1][1] 
+_pdbx_struct_oper_list.matrix[1][2] 
+_pdbx_struct_oper_list.matrix[1][3] 
+_pdbx_struct_oper_list.vector[1] 
+_pdbx_struct_oper_list.matrix[2][1] 
+_pdbx_struct_oper_list.matrix[2][2] 
+_pdbx_struct_oper_list.matrix[2][3] 
+_pdbx_struct_oper_list.vector[2] 
+_pdbx_struct_oper_list.matrix[3][1] 
+_pdbx_struct_oper_list.matrix[3][2] 
+_pdbx_struct_oper_list.matrix[3][3] 
+_pdbx_struct_oper_list.vector[3] 
+H  'transform to helical frame' ? ? 1.00000000  0.00000000  0.00000000 0.00000 0.00000000  1.00000000  0.00000000 0.00000 
+0.00000000 0.00000000 1.00000000 0.00000   
+1  'helical symmetry operation' ? ? 0.75978219  0.65017769  0.00000000 0.00000 -0.65017769 0.75978219  0.00000000 0.00000 
+0.00000000 0.00000000 1.00000000 -51.85000 
+2  'helical symmetry operation' ? ? 0.90363453  -0.42830438 0.00000000 0.00000 0.42830438  0.90363453  0.00000000 0.00000 
+0.00000000 0.00000000 1.00000000 -48.80000 
+3  'helical symmetry operation' ? ? -0.02225111 -0.99975241 0.00000000 0.00000 0.99975241  -0.02225111 0.00000000 0.00000 
+0.00000000 0.00000000 1.00000000 -45.75000 
+4  'helical symmetry operation' ? ? -0.92179550 -0.38767648 0.00000000 0.00000 0.38767648  -0.92179550 0.00000000 0.00000 
+0.00000000 0.00000000 1.00000000 -42.70000 
+5  'helical symmetry operation' ? ? -0.73010265 0.68333749  0.00000000 0.00000 -0.68333749 -0.73010265 0.00000000 0.00000 
+0.00000000 0.00000000 1.00000000 -39.65000 
+6  'helical symmetry operation' ? ? 0.32589818  0.94540487  0.00000000 0.00000 -0.94540487 0.32589818  0.00000000 0.00000 
+0.00000000 0.00000000 1.00000000 -36.60000 
+7  'helical symmetry operation' ? ? 0.99609518  0.08828583  0.00000000 0.00000 -0.08828583 0.99609518  0.00000000 0.00000 
+0.00000000 0.00000000 1.00000000 -33.55000 
+8  'helical symmetry operation' ? ? 0.48709771  -0.87334748 0.00000000 0.00000 0.87334748  0.48709771  0.00000000 0.00000 
+0.00000000 0.00000000 1.00000000 -30.50000 
+9  'helical symmetry operation' ? ? -0.59853435 -0.80109714 0.00000000 0.00000 0.80109714  -0.59853435 0.00000000 0.00000 
+0.00000000 0.00000000 1.00000000 -27.45000 
+10 'helical symmetry operation' ? ? -0.97561123 0.21950567  0.00000000 0.00000 -0.21950567 -0.97561123 0.00000000 0.00000 
+0.00000000 0.00000000 1.00000000 -24.40000 
+11 'helical symmetry operation' ? ? -0.19774288 0.98025392  0.00000000 0.00000 -0.98025392 -0.19774288 0.00000000 0.00000 
+0.00000000 0.00000000 1.00000000 -21.35000 
+12 'helical symmetry operation' ? ? 0.81421686  0.58056086  0.00000000 0.00000 -0.58056086 0.81421686  0.00000000 0.00000 
+0.00000000 0.00000000 1.00000000 -18.30000 
+13 'helical symmetry operation' ? ? 0.86229279  -0.50641006 0.00000000 0.00000 0.50641006  0.86229279  0.00000000 0.00000 
+0.00000000 0.00000000 1.00000000 -15.25000 
+14 'helical symmetry operation' ? ? -0.11042820 -0.99388410 0.00000000 0.00000 0.99388410  -0.11042820 0.00000000 0.00000 
+0.00000000 0.00000000 1.00000000 -12.20000 
+15 'helical symmetry operation' ? ? -0.95242240 -0.30478119 0.00000000 0.00000 0.30478119  -0.95242240 0.00000000 0.00000 
+0.00000000 0.00000000 1.00000000 -9.15000  
+16 'helical symmetry operation' ? ? -0.66692271 0.74512690  0.00000000 0.00000 -0.74512690 -0.66692271 0.00000000 0.00000 
+0.00000000 0.00000000 1.00000000 -6.10000  
+17 'helical symmetry operation' ? ? 0.40809147  0.91294105  0.00000000 0.00000 -0.91294105 0.40809147  0.00000000 0.00000 
+0.00000000 0.00000000 1.00000000 -3.05000  
+18 'helical symmetry operation' ? ? 1.00000000  0.00000000  0.00000000 0.00000 0.00000000  1.00000000  0.00000000 0.00000 
+0.00000000 0.00000000 1.00000000 0.00000   
+19 'helical symmetry operation' ? ? 0.40809147  -0.91294105 0.00000000 0.00000 0.91294105  0.40809147  0.00000000 0.00000 
+0.00000000 0.00000000 1.00000000 3.05000   
+20 'helical symmetry operation' ? ? -0.66692271 -0.74512690 0.00000000 0.00000 0.74512690  -0.66692271 0.00000000 0.00000 
+0.00000000 0.00000000 1.00000000 6.10000   
+21 'helical symmetry operation' ? ? -0.95242240 0.30478119  0.00000000 0.00000 -0.30478119 -0.95242240 0.00000000 0.00000 
+0.00000000 0.00000000 1.00000000 9.15000   
+22 'helical symmetry operation' ? ? -0.11042820 0.99388410  0.00000000 0.00000 -0.99388410 -0.11042820 0.00000000 0.00000 
+0.00000000 0.00000000 1.00000000 12.20000  
+23 'helical symmetry operation' ? ? 0.86229279  0.50641006  0.00000000 0.00000 -0.50641006 0.86229279  0.00000000 0.00000 
+0.00000000 0.00000000 1.00000000 15.25000  
+24 'helical symmetry operation' ? ? 0.81421686  -0.58056086 0.00000000 0.00000 0.58056086  0.81421686  0.00000000 0.00000 
+0.00000000 0.00000000 1.00000000 18.30000  
+25 'helical symmetry operation' ? ? -0.19774288 -0.98025392 0.00000000 0.00000 0.98025392  -0.19774288 0.00000000 0.00000 
+0.00000000 0.00000000 1.00000000 21.35000  
+26 'helical symmetry operation' ? ? -0.97561123 -0.21950567 0.00000000 0.00000 0.21950567  -0.97561123 0.00000000 0.00000 
+0.00000000 0.00000000 1.00000000 24.40000  
+27 'helical symmetry operation' ? ? -0.59853435 0.80109714  0.00000000 0.00000 -0.80109714 -0.59853435 0.00000000 0.00000 
+0.00000000 0.00000000 1.00000000 27.45000  
+28 'helical symmetry operation' ? ? 0.48709771  0.87334748  0.00000000 0.00000 -0.87334748 0.48709771  0.00000000 0.00000 
+0.00000000 0.00000000 1.00000000 30.50000  
+29 'helical symmetry operation' ? ? 0.99609518  -0.08828583 0.00000000 0.00000 0.08828583  0.99609518  0.00000000 0.00000 
+0.00000000 0.00000000 1.00000000 33.55000  
+30 'helical symmetry operation' ? ? 0.32589818  -0.94540487 0.00000000 0.00000 0.94540487  0.32589818  0.00000000 0.00000 
+0.00000000 0.00000000 1.00000000 36.60000  
+31 'helical symmetry operation' ? ? -0.73010265 -0.68333749 0.00000000 0.00000 0.68333749  -0.73010265 0.00000000 0.00000 
+0.00000000 0.00000000 1.00000000 39.65000  
+32 'helical symmetry operation' ? ? -0.92179550 0.38767648  0.00000000 0.00000 -0.38767648 -0.92179550 0.00000000 0.00000 
+0.00000000 0.00000000 1.00000000 42.70000  
+33 'helical symmetry operation' ? ? -0.02225111 0.99975241  0.00000000 0.00000 -0.99975241 -0.02225111 0.00000000 0.00000 
+0.00000000 0.00000000 1.00000000 45.75000  
+34 'helical symmetry operation' ? ? 0.90363453  0.42830438  0.00000000 0.00000 -0.42830438 0.90363453  0.00000000 0.00000 
+0.00000000 0.00000000 1.00000000 48.80000  
+35 'helical symmetry operation' ? ? 0.75978219  -0.65017769 0.00000000 0.00000 0.65017769  0.75978219  0.00000000 0.00000 
+0.00000000 0.00000000 1.00000000 51.85000  
+# 
+_pdbx_helical_symmetry.entry_id                  2XKM 
+_pdbx_helical_symmetry.number_of_operations      35 
+_pdbx_helical_symmetry.rotation_per_n_subunits   65.915000 
+_pdbx_helical_symmetry.rise_per_n_subunits       3.050000 
+_pdbx_helical_symmetry.n_subunits_divisor        1 
+_pdbx_helical_symmetry.dyad_axis                 no 
+_pdbx_helical_symmetry.circular_symmetry         1 
+# 
+loop_
+_pdbx_audit_revision_history.ordinal 
+_pdbx_audit_revision_history.data_content_type 
+_pdbx_audit_revision_history.major_revision 
+_pdbx_audit_revision_history.minor_revision 
+_pdbx_audit_revision_history.revision_date 
+1 'Structure model' 1 0 2010-11-24 
+2 'Structure model' 1 1 2013-11-27 
+3 'Structure model' 1 2 2019-09-18 
+4 'Structure model' 1 3 2021-04-28 
+# 
+_pdbx_audit_revision_details.ordinal             1 
+_pdbx_audit_revision_details.revision_ordinal    1 
+_pdbx_audit_revision_details.data_content_type   'Structure model' 
+_pdbx_audit_revision_details.provider            repository 
+_pdbx_audit_revision_details.type                'Initial release' 
+_pdbx_audit_revision_details.description         ? 
+_pdbx_audit_revision_details.details             ? 
+# 
+loop_
+_pdbx_audit_revision_group.ordinal 
+_pdbx_audit_revision_group.revision_ordinal 
+_pdbx_audit_revision_group.data_content_type 
+_pdbx_audit_revision_group.group 
+1 2 'Structure model' 'Data collection'           
+2 2 'Structure model' 'Database references'       
+3 2 'Structure model' Other                       
+4 2 'Structure model' 'Version format compliance' 
+5 3 'Structure model' 'Data collection'           
+6 4 'Structure model' 'Data collection'           
+7 4 'Structure model' Other                       
+# 
+loop_
+_pdbx_audit_revision_category.ordinal 
+_pdbx_audit_revision_category.revision_ordinal 
+_pdbx_audit_revision_category.data_content_type 
+_pdbx_audit_revision_category.category 
+1 3 'Structure model' reflns               
+2 4 'Structure model' pdbx_database_status 
+3 4 'Structure model' reflns               
+# 
+loop_
+_pdbx_audit_revision_item.ordinal 
+_pdbx_audit_revision_item.revision_ordinal 
+_pdbx_audit_revision_item.data_content_type 
+_pdbx_audit_revision_item.item 
+1 3 'Structure model' '_reflns.pdbx_Rmerge_I_obs'            
+2 3 'Structure model' '_reflns.percent_possible_obs'         
+3 4 'Structure model' '_pdbx_database_status.status_code_mr' 
+4 4 'Structure model' '_pdbx_database_status.status_code_sf' 
+5 4 'Structure model' '_reflns.pdbx_redundancy'              
+# 
+_software.classification   phasing 
+_software.name             XPLOR-NIH 
+_software.version          . 
+_software.citation_id      ? 
+_software.pdbx_ordinal     1 
+# 
+loop_
+_pdbx_validate_torsion.id 
+_pdbx_validate_torsion.PDB_model_num 
+_pdbx_validate_torsion.auth_comp_id 
+_pdbx_validate_torsion.auth_asym_id 
+_pdbx_validate_torsion.auth_seq_id 
+_pdbx_validate_torsion.PDB_ins_code 
+_pdbx_validate_torsion.label_alt_id 
+_pdbx_validate_torsion.phi 
+_pdbx_validate_torsion.psi 
+1 1 VAL A 2 ? ? 170.28  146.94 
+2 1 THR A 5 ? ? -106.27 40.90  
+# 

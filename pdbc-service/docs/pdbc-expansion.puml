@@ -1,0 +1,75 @@
+@startuml
+
+title PDBC 拓展数据
+
+class pdbc_entry<<实体基础数据>>{
+    structureId:int11 <主键>
+    stuctKeywods:varchar255 <关键词>
+    dio:varchar255 <DOI>
+    EMD:varchar255 <EMD>
+    classification:varchar255 <分类>
+    organism:varchar255 <学名>
+    mutation:varchar255 <突变>
+    depositedDate:varchar255 <存储日期>
+    releasedDate:varchar255 <发布日期>
+    depositionAuthors:varchar255 <提交作者>
+    fundingOrganization:varchar255 <资助机构>
+    exptls:json <实验方法>
+    literature:json <文献>
+    totalStructureWeight:varchar255 <总结构权重>
+    atomCount:varchar255 <原子数>
+    modelledResidueCount:varchar255 <模型残基数>
+    depositedResidueCount:varchar255 <存储残基数>
+    uniqueProteinChains:varchar255 <独特蛋白质链>
+}
+
+class pdbc_polymer_entry<<聚合物>>{
+    structureId:int11 <主键>
+    entityId:int11 <实体id>
+    type:varchar255 <类型>
+    molecule:varchar255 <分子>
+    chains:varchar255 <链>
+    sequenceLength:varchar255 <序列长度>
+    organism:varchar255 <学名>
+    mutations:varchar255 <突变>
+    geneNames:varchar255 <基因名>
+    uniProt:varchar255 <UniProt>
+}
+
+class pdbc_nonpolymer_entity<<非聚合物>>{
+    structureId:int11 <主键>
+    entityId:int11 <实体id>
+    name:varchar255 <名称>
+    compId:varchar255 <小分子id>
+    chains:varchar255 <链>
+    type:varchar255 <类型>
+    formula:varchar255 <分子式>
+    parent:varchar255 <父级>
+}
+
+
+class pdbc_ligand_entity<<链(小分子)>>{
+    structureId:int11 <主键>
+    entityId:int11 <实体id>
+    chains:json <链>
+    name:varchar255 <名称>
+    formula:varchar255 <分子式>
+    inchiKey:varchar255 <InChIKey>
+}
+
+class pdbc_modified_residues_entity<<修饰残基(小分子)>>{
+    structureId:int11 <主键>
+    entityId:int11 <实体id>
+    chains:json <链>
+    name:varchar255 <名称>
+    formula:varchar255 <分子式>
+    parent:varchar255 <父级>
+}
+
+class pdbc_assembly<<结构形成过程>>{
+    structureId:int11 <主键>
+    assemblyId:int11 <Assembly id>
+    explain:varchar255 <说明>
+    biologicalAssemblyEvidence:varchar255 <证据>
+}
+@enduml

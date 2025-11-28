@@ -1,0 +1,54 @@
+.navbar_mobile_contain {
+  .navbar_item {
+    .navbar_item_title {
+      padding: 16px 24px;
+      border-bottom: 1px solid rgba(234, 234, 234, 0.4);
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      .title {
+        font-size: 16px;
+      }
+      .name_icon {
+        font-size: 12px;
+        transition: all linear 0.02s;
+      }
+      .name_icon_active {
+        transform: rotate(180deg);
+      }
+      &:hover {
+        background-color: rgba(0, 0, 0, 0.05);
+      }
+    }
+  }
+  .navbar_children {
+    padding: 8px 16px;
+    .desposit_title {
+      margin-bottom: 4px;
+      display: block;
+    }
+    .desposit_item {
+      padding-left: 16px;
+      padding: 6px 0 6px 16px;
+      display: block;
+      color: #333;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+      /*! autoprefixer: off */
+      -webkit-box-orient: vertical;
+      /*! autoprefixer: on */
+      text-overflow: ellipsis;
+      overflow: hidden;
+    }
+    .navbar_children_item {
+      padding: 6px 0 6px 16px;
+      display: block;
+      color: #333;
+    }
+    .nav_children_empty {
+      padding: 6px 0 6px 32px;
+    }
+  }
+}

@@ -1,0 +1,47 @@
+.doc_contain {
+  display: flex;
+
+  .doc_menu {
+    width: 25%;
+    max-width: 25%;
+
+    .menu_title {
+      padding: 5px 4px;
+      border-bottom: 1px solid #ededed;
+      border-top: 1px solid #ededed;
+    }
+
+    .menu_item {
+      .item_name {
+        background-color: #f9f9f9;
+        cursor: pointer;
+        border-bottom: 1px solid #ddd;
+        padding: 4px 2px;
+      }
+
+      .icon_open_active {
+        transform: rotate(-180deg);
+        transition: all linear 0.01s;
+      }
+
+      .children_list {
+        .children_item {
+          padding: 4px 2px 4px 18px;
+          border-bottom: 1px solid #ededed;
+          justify-content: space-between;
+          align-items: flex-start;
+
+          .label {
+            max-width: 85%;
+          }
+        }
+      }
+    }
+  }
+
+  .doc_info {
+    width: 75%;
+    max-width: 75%;
+    margin-left: 2%;
+  }
+}

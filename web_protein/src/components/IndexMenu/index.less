@@ -1,0 +1,135 @@
+.indexMenu {
+  margin: 20px auto;
+  border-radius: 4px;
+  border: 1px solid rgba(235, 235, 235, 1);
+  overflow: hidden;
+  .left_category {
+    padding: 24px 0;
+    background-color: var(--primary-color);
+    @media (max-width: 768px) {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 8px 0 0 0;
+    }
+    .category_item {
+      user-select: none;
+      height: 64px;
+      line-height: 64px;
+      padding-left: 41px;
+      cursor: pointer;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      .category_icon {
+        font-size: 24px;
+        margin-right: 12px;
+        color: #fff;
+        @media (max-width: 768px) {
+          margin-left: 12px;
+        }
+      }
+      .category_icon_active {
+        color: var(--primary-color);
+      }
+      .category_name {
+        font-size: 18px;
+        font-weight: bold;
+        color: rgba(255, 255, 255, 1);
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        user-select: none;
+        @media (max-width: 768px) {
+          width: 0;
+          height: 0;
+          overflow: hidden;
+        }
+      }
+      &:hover {
+        background-color: rgba(51, 51, 51, 0.25);
+      }
+      @media (max-width: 768px) {
+        padding: 5px 0;
+        line-height: inherit;
+        height: auto;
+      }
+    }
+    .carousel_item_active {
+      background-color: rgba(255, 255, 255, 1);
+      .category_name {
+        color: var(--primary-color);
+      }
+      &:hover {
+        background-color: rgba(255, 255, 255, 1) !important;
+      }
+    }
+  }
+  .right_children_list {
+    padding: 24px;
+    .listItem_header {
+      font-size: 18px;
+      color: var(--text-color);
+      font-weight: bold;
+      display: flex;
+      .header_icon {
+        margin-right: 12px;
+        width: 66px;
+        height: 66px;
+      }
+      .itemIconFont {
+        margin-right: 12px;
+        font-size: 46px;
+        color: var(--primary-color);
+      }
+    }
+    .listItem_children {
+      margin-top: 24px;
+      .children_item {
+        margin-bottom: 20px;
+      }
+    }
+    .children_item_title {
+      margin-bottom: 2px;
+      font-size: 14px;
+      font-weight: bold;
+      color: var(--text-color);
+    }
+    .children_item_desc {
+      font-size: 12px;
+      font-weight: 400;
+      color: var(--text-desc-color);
+      a {
+        color: var(--text-desc-color);
+        &:hover {
+          text-decoration: underline;
+          color: var(--primary-color);
+        }
+      }
+      &:hover {
+        text-decoration: underline;
+        color: var(--primary-color);
+      }
+    }
+    .children_list_inline {
+      .list_inline_item {
+        display: flex;
+        .inline_item_icon {
+          margin-right: 10px;
+          min-width: 70px;
+          min-height: 70px;
+          width: 70px;
+          height: 70px;
+          object-fit: contain;
+        }
+        .itemIconFont {
+          margin-right: 10px;
+          font-size: 46px;
+          color: var(--primary-color);
+        }
+      }
+    }
+  }
+}

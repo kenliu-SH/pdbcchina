@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JSmol查看器 蛋白质样例</title>
+</head>
+<script type="text/javascript" src="./JSmol.js"></script>
+
+<body>
+  <div id="myDiv"></div>
+</body>
+<script>
+  function urlSolve(search) {
+    let obj = {}
+    let reg = /[?&][^?&]+=[^?&]+/g
+    let arr = search.match(reg)
+    if (arr) {
+      arr.forEach(item => {
+        let tempArr = item.substr(1).split('=')
+        let key = decodeURIComponent(tempArr[0])
+        let val = decodeURIComponent(tempArr[1])
+        obj[key] = val
+      })
+    }
+    return obj
+  }
+  const { id } = urlSolve(window.location.href)
+  const Info = {
+    width: "100%",
+    height: 750,
+    debug: false,
+    color: "#F0F0F0",
+    addSelectionOptions: true,
+    use: "HTML5",
+    j2sPath: "j2s",
+    readyFunction: null,
+    disableJ2SLoadMonitor: true,
+    serverURL: "https://chemapps.stolaf.edu/jmol/jsmol/php/jsmol.php",
+  };
+  const jmolApplet = Jmol.getApplet("jmolApplet", Info);
+  Jmol.script(jmolApplet, `load https://files.rcsb.org/download/${id}.cif`);
+  // Jmol.script(jmolApplet, `load http://141.11.139.93:10608/web/v1/file/mmCIF/down/${id}.cif`);
+</script>
+
+</html>

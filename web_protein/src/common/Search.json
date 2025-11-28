@@ -1,0 +1,80 @@
+{
+  "query": {
+    "type": "group",
+    "logical_operator": "and",
+    "nodes": [
+      {
+        "type": "group",
+        "logical_operator": "and",
+        "nodes": [
+          {
+            "type": "group",
+            "nodes": [
+              {
+                "type": "terminal",
+                "service": "text",
+                "parameters": {
+                  "attribute": "struct.title",
+                  "operator": "contains_phrase",
+                  "negation": false,
+                  "value": "6"
+                }
+              }
+            ],
+            "logical_operator": "and"
+          }
+        ],
+        "label": "text"
+      },
+      {
+        "type": "group",
+        "logical_operator": "and",
+        "nodes": [
+          {
+            "type": "group",
+            "nodes": [
+              {
+                "type": "terminal",
+                "service": "full_text",
+                "parameters": { "value": "33" }
+              }
+            ],
+            "logical_operator": "and"
+          }
+        ],
+        "label": "full_text"
+      },
+      {
+        "type": "group",
+        "logical_operator": "and",
+        "nodes": [
+          {
+            "type": "group",
+            "nodes": [
+              {
+                "type": "terminal",
+                "service": "text_chem",
+                "parameters": {
+                  "attribute": "rcsb_chem_comp_container_identifiers.comp_id",
+                  "operator": "in",
+                  "negation": false,
+                  "value": ["444"]
+                }
+              }
+            ],
+            "logical_operator": "and"
+          }
+        ],
+        "label": "text_chem"
+      }
+    ]
+  },
+  "return_type": "entry",
+  "request_options": {
+    "paginate": { "start": 0, "rows": 25 },
+    "results_content_type": ["experimental"],
+    "sort": [{ "sort_by": "score", "direction": "desc" }],
+    "scoring_strategy": "combined"
+  },
+  "request_info": { "query_id": "97f28cf946968a12b92f5623ccea514e" }
+}

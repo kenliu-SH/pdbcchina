@@ -1,0 +1,2 @@
+0 3 * * 0 /bin/bash -x /home/lz1_web_protein_20210607/server/script/mysqlFullBack.sh >/dev/null 2>&1
+0 * * * * /bin/bash -x /home/lz1_web_protein_20210607/server/script/rsync-data.sh >/dev/null 2>&1

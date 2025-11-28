@@ -1,0 +1,573 @@
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+feat : 增加字段
+fix: IS NOT NULL
+pref：调整检索逻辑
+高级检索有解析问题的置灰
+fix: 浮点类型比较
+fix: Revision Date映射
+值判断
+de bug
+使用子查询构造多表SQL
+fix: emdb 搜索
+fix：applyWhereSqlToJoinSql
+fix：首页最新条目排序
+fix:like
+fix: 日期检索
+调整最新条目排序规则
+更新脚本调整
+增加文件下载，支持单个项目多个类型
+feat: 下载 versions cif 文件
+fix：邮箱验证
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+角色软删除
+feat：密码复杂度验证和系统操作日志
+配置调整
+密码配置修改
+配置修改
+fix：全文检索
+entry 页面添加groupID
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+feat: 支持emdb下载
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+高级检索项修改
+fix: 计数问题
+emdbId 检索项修改并重新开放
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+删除逻辑修改
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+配置调整
+选项子项删除
+search 页面报错处理
+molecularWeight 字段缺失修改
+检索字段开放
+修改最后更新条目
+首页pdbc排序
+检索项开放，新闻高亮排序
+检索项开放
+检索项开放
+检索字段开放
+检索字段开放
+高光新闻字段添加
+亮点新闻新增字段
+新闻信息报错处理
+新闻筛选
+新闻，高光时刻中英文配置
+检索项逻辑开放
+数据库配置修改
+新闻高光时刻根据日期排序
+底部栏数据修改
+数据库端口修改
+检索项 molecularWeight 增加
+Macromolecule Name 检索项开放
+搜索栏显示栏目增加
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+高级检索字段开放
+高级检索字段开放
+高级检索开放字段，实验数据解析修改
+validation 字段内容不显示
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+优化日志
+速度优化
+优化查询速度
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+检索项开放
+优化高级检索查询速度
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+高级检索字段开放
+优化下查询性能
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+overallBValue 字段解析逻辑修改
+管理端密码编辑加密处理
+优化速度
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+高级检索开放字段
+feat: 页面内容判断发布时间
+修改获取小分子化学结构式图片格式
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+小分子数据修改
+调整总数量统计实现规则
+部署脚本更新
+部署脚本
+更新脚本
+检索字段开放
+bird 解析逻辑修改
+BIRD 页面接口
+主题新增状态
+用户角色字段返回
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+高级检索字段修改 与 用户信息增加是否管理字段
+specimenPreparation 字段信息修改
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+高级检索项增加
+支持未发布和已删除的数据获取
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+实验数据页面 Reconstruction 修改
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+fix:  高级检索计数
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+ccd 增加字段 ，实验数据页面字段修改
+删除无头浏览器模块
+修改 获取文件展示与下载信息 实现方式
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+nmrExperiment 字段信息修改
+ccd下载
+获取小分子化学结构式图片
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+文件路径调整
+小分子增加标签字段
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+biological 数据类型修改
+biological图片修改
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+获取3d截图文件列表
+Biologically Interesting Molecules 与大分子数据修改
+Biologically 不显示
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+获取ccd信息接口
+实验信息数据修改
+Validation 信息获取
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+highestResolutionShells 新增字段
+新增高级检索字段
+实验信息修改
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+biologicallyInterestingMolecules 显示bug
+调整解析方式
+新增 proteinFeatureView
+预处理接口增加 Validation
+实验信息页面修改
+实验信息页面新增字段
+实验信息页面数据修改
+entry 页面内容修改
+Organism 修改
+entry 页面预处理数据接口
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+entry 页面预处理接口
+全文检索补充
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+高级检索兼容
+entry 页面数据结构修改
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+条目结构摘要v2
+补充拓展数据表
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+entry 页面解析逻辑预处理
+fix: 下载文件名
+优化接口速度
+支持自定义schema
+entry 页面数据预处理
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+file接口v2
+预处理调试
+Merge branches 'master' and 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+entry 页面数据预处理迁移
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+entry 页面解析逻辑修改
+数据解析demo
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+Assembly ID(s) 支持
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+entry 页面内容获取修改
+uniProt 支持
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+实验数据页面修改
+底部图片配置
+图片配置文件与entry页面数据修改
+菜单栏不显示问题
+导航栏显示问题
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+文献摘要接口
+fix: 全文搜索
+页面是否建设中跳转
+依赖更新
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+分库
+配置文件中英文
+是否建设中状态链接
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+建设中页面配置
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+基础信息接口
+首页图文配置
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+部分解析重构
+实验信息页面数据更新
+biological 修改
+Space Group 显示问题
+  Versions 页面数据不正确
+entry 页面实验数据
+Gene Names 数据类型修改
+页面逻辑修改
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+uinProt 数据导入
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+首页基础信息修改
+访问码添加备注
+验证码修改
+访问码修改
+访问码状态修改
+条目页面更新与访问码报错修改
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+新增访问码接口
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+API 文档
+API 文档
+优化查询速度
+调整数据目录
+截图
+pref：优化解析数据查询速度
+调整配置文件
+优化首页查询速度
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+测试库修改
+api文档 条目页面内容补齐
+NMR Experiment字段信息补全
+API 文档
+api 开放文档
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+条目页面内容修改
+调整数据库名称
+配置调整
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+下载文件
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+实验信息页内容补充
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+首页菜单栏修改
+条目结构修改
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+Polymer Entity Molecular Weight 支持
+Number of Non-Hydrogen Atoms per Deposited Model支持
+Deposited Model Count 支持
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+Molecular Weight per Deposited Model 支持
+菜单栏字段修改
+实验信息页面补齐
+低聚糖信息
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+fix:生物学上有趣的分子
+实验方法区分例子
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+biologicalAssembly 部分问题修正
+实验信息
+系统配置
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+导航栏与菜单栏的选择栏
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+修正统计逻辑
+导航栏预览列表
+页尾列表修改
+底部标签栏
+导航栏删除
+中英文字段修改
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+高级搜索（只返回PDBID列表）
+feat：批量下载兼容多种类型
+管理端密码修改
+登录邮箱验证
+合并代码
+邮箱验证
+优化规则订阅
+fix：rss订阅
+公众号token更新
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+feat: 微信登录
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+fix：订阅异常
+邮箱验证
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+邮箱验证登录
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+下载/显示/EMDB文件
+收藏列表带出信息
+是否收藏
+收藏条目
+密码加密
+密码加密
+feat:获取微信绑定状态
+feat：绑定微信
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+修改用户信息
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+修改用户信息
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+feat: 接收微信公众号事件回调
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+feat：推送订阅内容支持邮箱
+首页蛋白质数量描述
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+fix:  高级检索空value查询异常
+fix：高级检索结果重复
+支持字段补充
+调整 获取文献 Affiliation接口数据获取方式
+feat: 更换 browserPool 实现方式
+优化截图toast
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+feat：截图
+用户字段修改
+实验信息页面字段完善
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+文献附加信息
+fix: 自动完成建议实现方式调整
+fix: 获取细化统计信息
+fix: 解析内容
+fix:解析内容
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+fix:解析内容
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+feat:补充uniqueLigands 字段
+feat:完善获取二维剖面图逻辑（仅支持固定角度）
+更新配置
+接口地址调整
+feat：获取二维剖面图(列表用），应用截图脚本
+doc:update
+pref:优化查询速度
+feat: swagger支持复制
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+feat: 文件接口同时支持显示和下载
+fix 解析异常
+feat：补充 biological字段
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+fix:  高级检索
+fix: 页面内容完善
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+页面字段信息完善
+完善 range_exclusive & range_upper_incl 操作符号
+feat: 支持 range操作符
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+fix: 页面补全
+fix: 页面字段补齐
+update：doc
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+侧边栏补充attribute参数
+feat: 补充文献 affiliation
+feat: 侧边栏补充 releaseDateRefine
+fix: 获取细化统计信息
+feat: 支持范围操作符，侧边栏统计支持 resolutionRefine
+feat：蛋白质3d截图脚本
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+feat:open 补充文件相关接口
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+pref：open接口完善
+feat：初始化开放平台
+pref：优化列表速度
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+pref:优化结构概要查询数据
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+历史记录修改
+更换数据库地址
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+feat：补充 abstract 信息
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+年份修改
+fix:LIKE搜索
+feat:下载验证报告CIF/XML文件
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+feat:下载PDBML文件
+实验信息补齐
+pref:优化全文检索
+字段更新
+字段补齐
+fix:组合检索异常
+fix:优化结构基础信息
+perf:创建订阅title
+feat:生成查询描述
+fix:获取细化统计信息调整返回内容
+fix:高级检索参数调整
+实验信息
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+实验信息内容修改
+feat：完善unitCells字段
+fix:完善摘要解析
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+fix: 完善大分子 Details
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+fix:字段修改
+fix:实验信息解析
+fix 条目字段修改
+feat:小分子及软件数据解析完善
+fix:大分子判断
+配置调整
+update：调整数据路径配置
+feat:获取RSS订阅，每周更新
+docs：测试文件同步文档
+update：data.json
+feat: 高级检索字段支持
+feat:触发条件订阅，固定发站内信
+feat：站内信列表
+feat：查询规则订阅
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+实验信息与删除多余表
+feat：订阅规则触发，推送微信消息
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+fix：公众号模版消息
+邮箱
+实验信息
+实验信息
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+experiment补齐
+experiment补齐
+feat:  订阅消息初步逻辑
+feat:集成微信工作号相关模块
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+pref：更新蛋白质数据地址
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+发送邮箱
+feat:完善结构信息解析
+ feat：完善实验快照解析
+feat:优化概要解析结果
+feat:高级检索支持 contains_words操作符，优化解析概要信息接口速度
+feat:支持不为空操作符
+feat:高级检索支持 negation 参数
+experiment 字段对应
+feat:高级检索支持in操作符
+feat:获取细化统计信息
+feat:高级检索计数
+feat:新增全文检索支持
+feat:全文检索数据模型
+feat:筛选支持标识符
+feat:获取筛选数据
+feat:高级检索初步支持Key word搜索
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+客户端用户登录
+feat：高级检索支持分页查询
+perf: 完善结构摘要
+perf:完善结构摘要接口
+优化结构摘要接口
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+feat：优化接口速度
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+客户端新闻高光
+删除排序功能
+高光时刻id列表修改：排序以及数据精简
+feat:调整 基础信息接口
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+feat:完善结构摘要页面接口
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+新闻列表
+标签排序
+标签新建
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+用户端 高光时刻
+feat:完善部分解析字段
+fix:数据模型异常
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+feat:更新mmcif模型
+拖拽排序
+拖拽排序
+客户端导航栏
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+新闻创建人信息
+Merge branch 'advanced-search-feat'
+feat:pdb模型部分外键补充
+新闻管理搜索
+新闻管理搜索
+用户端导航栏
+标签管理
+导航栏管理
+导航栏管理
+添加菜单栏接口
+添加菜单栏接口
+菜单栏管理
+管理端菜单栏管理
+管理端菜单栏
+主题配置
+主题配置
+主题配置
+客户端菜单栏列表
+客户端菜单栏列表
+主题配置
+主题配置
+菜单栏管理
+用户端页脚管理修改
+主题配置
+客户端页尾
+feat：高级检索雏型
+菜单栏管理
+菜单栏
+用户角色
+用户角色
+主题管理修改
+主题管理
+页尾管理修改
+页尾排序
+页尾管理修改
+用户id
+管理端账户登录
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+fix:用户角色
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+feat:补充mmcif模型
+角色
+fix:用户列表
+用户修改
+页尾管理
+修改
+修改
+修改
+修改
+修改
+修改
+账户登录字段管理
+修改
+用户管理
+获取当前登录信息
+用户当前登录信息
+用户登录信息
+账号管理
+账号目录
+高光错误信息
+高光时刻
+新闻标签管理
+高光时刻 标签管理
+tag管理
+新闻tag
+新闻列表tag
+高光时刻tag
+标签管理
+高光时刻
+标签管理列表
+搜索管理
+搜索管理
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+接口修改
+修改接口
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+高级检索字段
+Merge branch 'master' of codeup.aliyun.com:5f50cc82df9df74e36affca4/project/protein/service_protein
+页尾更改
+feat：补充筛选数据
+feat:初步集成rss订阅
+导航栏管理
+导航栏管理
+标签管理
+标签管理
+角色管理 标签管理
+perf:端口更新
+feat：ciftools依赖本地化
+perf:依赖更新
+feat：高级筛选字段补充
+feat:meiliSearch 过滤器组合方法
+docs:修改md文件
+feat：初步提交代码

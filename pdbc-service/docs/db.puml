@@ -1,0 +1,135 @@
+@startuml
+
+' 规范说明
+' rule_ 默认配置
+' log_ 记录（只读）
+' stat_ 统计（只读）
+' is_ bool类型
+' _At 时间类型
+
+/'用户相关'/
+class user<<用户>>{
+    +id:int11 <主键>
+    firstName:varchar64<首名>
+    lastName:varchar64<后名>
+    email:varchar128<邮箱地址>
+    phone:varchar64<手机号码>
+    password:varchar128<密码>
+    headPortrait:varchar128<头像地址>
+    createdAt: timestamps <创建时间>
+    updatedAt: timestamps <更新时间>
+}
+
+class entry<<条目_PDB基础信息>>{
+    +id:int11 <主键>
+    PBDId:varchar64<PBD ID>
+    source:varchar64<来源生物的学名>
+    type:varchar64<类型名称>
+    accessionDate:timestamps<发布日期>
+    depositedDate:timestamps<存入日期>
+    method:varchar64<实验方法>
+    #uploaderId:<上传者id>
+    desc:varchar64<描述>
+    polymerType:varchar64<聚合物类型>
+    resolution:float10<细化分辨率>
+    enzymeType:varchar64<酶分类名称>
+    membraneProteinAnnotation:varchar64<膜蛋白注释>
+    symmetryType:varchar64<对称类型>
+    scopType:varchar64<scop分类>
+    relatedArticles:JSON<相关文章>
+    #PBDFileId:int11<文件id>
+    #structuresId:int11<结构id>
+    createdAt: timestamps <创建时间>
+    updatedAt: timestamps <更新时间>
+}
+entry o-- structures
+entry o-- user
+entry o-- pbd_file
+class structures<<PBD详细结构信息>>{
+    +id:int11 <主键>
+    snapshotPicture:JSON<快照图片>
+    macromoleculeContent:JSON<高分子含量信息>
+    symmetry:varchar64 <全局对称描述>
+    stoichiometric:varchar64<化学计量描述>
+    DOI:varchar64<DOI链接地址>
+    testDataSnapshot:JSON<实验数据快照>
+    organisms:JSON<生物体信息>
+    expressionSystem:JSON<表现方式>
+    mutation:int11<是否突变>
+    createdAt: timestamps <创建时间>
+    updatedAt: timestamps <更新时间>
+}
+
+class pbd_file<<PBD文件信息>>{
+    +id:int11 <主键>
+    source:varchar64<来源>
+    PBDId:varchar64<PBD ID>
+    path:varchar64<文件存储路径>
+    createdAt: timestamps <创建时间>
+    updatedAt: timestamps <更新时间>
+}
+
+class article<<文章>>{
+    +id:int11 <主键>
+    title:varchar128<标题>
+    content:text<富文本内容>
+    #userId:int11<上传人>
+    releaseDate:timestamps<发布日期>
+    pv:int11<浏览量>
+    likeCount:int11<点赞计数>
+    createdAt: timestamps <创建时间>
+    updatedAt: timestamps <更新时间>
+}
+
+article o-- user
+
+class like<<点赞信息关联>>{
+    +id:int11 <主键>
+    #userId:int11<用户id>
+    #articleId:int11<文章id>
+    createdAt: timestamps <创建时间>
+    updatedAt: timestamps <更新时间>
+}
+
+like o-- article
+like o-- user
+
+
+class entry<<蛋白质实体基础信息>>{
+    +id:int11 <主键>
+    PBDId:varchar64<PDBId>
+    details:JSON<原始细节>
+    createdAt: timestamps <创建时间>
+    updatedAt: timestamps <更新时间>
+}
+
+
+class collect<<收藏>>{
+    +id:int11 <主键>
+    PDBId:varchar64<PDBId>
+    uid:int11<用户id>
+    createdAt: timestamps <创建时间>
+    updatedAt: timestamps <更新时间>
+}
+
+class highlight<<高光时刻>>{
+    +id:int11 <主键>
+    title:varchar64<标题>
+    miniImage:varchar128<封面迷你图>
+    content:text<富文本内容>
+    #authorUID:<作者id>
+    createdAt: timestamps <创建时间>
+    updatedAt: timestamps <更新时间>
+}
+
+class banner<<banner>>{
+    +id:int11 <主键>
+    describe:varchar128<描述内容>
+    isShow:int11<是否显示 0不显示 1显示>
+    image:varchar256<图片地址>
+    link:varchar256<跳转地址>
+    createdAt: timestamps <创建时间>
+    updatedAt: timestamps <更新时间>
+}
+
+@enduml

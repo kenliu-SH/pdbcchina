@@ -1,0 +1,36 @@
+export default {
+  'login.title': '登录',
+  'login.desc': '欢迎加入我们。Pdbc是全球PDB（wwPDB）的准成员。',
+  'login.Account': '邮箱',
+  'login.Password': '密码',
+  'login.Password.rules.message1': '密码格式不符合要求',
+  'login.Password.extra': '必须大于8位并同时包含数字、大小写字母和特殊字符',
+  'login.email.empty': '邮箱不能为空',
+  'login.email.error': '邮箱格式有误',
+  'login.Password.empty': '密码不能为空',
+  'login.placeholder1': '输入电子邮件',
+  'login.placeholder2': '输入密码',
+  'login.placeholder3': '名',
+  'login.placeholder4': '姓',
+  'login.agree': '我同意',
+  'login.doc.title': '中国蛋白质结构数据库',
+  'login.documentName1': '《服务使用协议及免责声明》',
+  'login.documentName.and': '和',
+  'login.documentName2': '《用户自律承诺书》',
+  'login.btnName': '进入',
+
+  'regsiter.title': '注册',
+  'register.form.label1': '中文姓名',
+  'register.form.label2': '英文姓名',
+  'register.form.label3': '电子邮件',
+  'register.form.label4': '密码',
+  'register.form.label5': '确认密码',
+  'regsiter.confirm': '确定',
+  'register.confirm.password': '您输入的两个密码不匹配！',
+
+  'register.form.tips':
+    '输入完整中英文姓名可为您智能匹配您的结构数据并标注您的中文姓名',
+
+  'register.success.title': '提示',
+  'register.success.desc': '注册申请已提交！请转到您注册的电子邮件进行验证',
+};

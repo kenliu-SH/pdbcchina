@@ -1,0 +1,44 @@
+.view_contain {
+  .view_switch {
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+}
+
+.molstar_container {
+  :global {
+    .msp-viewport-controls {
+      display: none;
+    }
+  }
+}
+
+.ngl_contain {
+  border: 1px solid #ddd;
+  font-size: 12px;
+  .ngl_header {
+    border-bottom: 1px solid #ddd;
+    padding: 14px 15px;
+    background-color: #eee;
+  }
+  .ngl_model {
+    height: 750px;
+  }
+  .ngl_footer {
+    border-top: 1px solid #ddd;
+    padding: 14px 15px;
+  }
+}
+
+.jsMol_contain {
+  .jsMol_model {
+    height: 550px;
+  }
+  iframe {
+    width: 100% !important;
+    height: 770px !important;
+    border-width: 1px !important;
+  }
+}

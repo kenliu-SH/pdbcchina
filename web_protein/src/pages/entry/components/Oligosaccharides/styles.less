@@ -1,0 +1,40 @@
+.composition_box {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 100%;
+  overflow: hidden;
+  padding: 0 24px;
+  .box {
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+  }
+  .box_item {
+    padding: 0 18px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+    background-color: var(--primary-color);
+    border-radius: 6px;
+    overflow: hidden;
+    position: relative;
+    span {
+      position: absolute;
+      bottom: 2px;
+      right: 4px;
+      font-size: 12px;
+      line-height: initial;
+    }
+  }
+  .box_item_line {
+    width: 15px;
+    height: 2px;
+    background-color: rgba(23, 32, 55, 1);
+  }
+}

@@ -1,0 +1,115 @@
+.login_contain {
+  padding: 120px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+  }
+  .login_carousel {
+    width: 613px;
+    // height: 560px;
+    .login_carousel_item {
+      width: 613px;
+      // height: 560px;
+    }
+    .loginBg {
+      width: 613px;
+      height: 487px;
+      // height: 560px;
+      object-fit: contain;
+      @media (max-width: 768px) {
+        width: 100%;
+        height: 487px;
+        // height: auto;
+      }
+    }
+  }
+  .login_form {
+    min-width: 320px;
+    max-width: 420px;
+    margin-left: 34px;
+    @media (max-width: 768px) {
+      padding: 24px;
+      margin-left: 0;
+      width: 100%;
+    }
+    .title {
+      font-size: 32px;
+      font-weight: 400;
+      color: var(--primary-color);
+    }
+    .desc {
+      font-size: 16px;
+      font-weight: 400;
+      color: var(--text-color);
+      margin-top: 12px;
+    }
+    .agree_check {
+      margin-top: 20px;
+      a {
+        text-decoration: underline;
+      }
+      .agree_info {
+        margin-left: 8px;
+      }
+    }
+    .loginCon {
+      margin-top: 90px;
+      @media (max-width: 768px) {
+        margin-top: 45px;
+      }
+    }
+    .btn_item {
+      margin-top: 36px;
+      .registe_btn {
+        text-align: center;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 500;
+        margin-top: 12px;
+      }
+    }
+    .other_login {
+      margin-top: 16px;
+      .other_login_tips {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        .tips_line {
+          width: 22px;
+          height: 1px;
+          background: rgba(204, 204, 204, 1);
+        }
+        .tips {
+          margin: 0 14px;
+          font-size: 16px;
+          color: var(--text-mini-color);
+        }
+      }
+      .other_login_btn {
+        margin-top: 16px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        .loginIcon {
+          width: 126px;
+          height: 47px;
+          cursor: pointer;
+          &:last-child {
+            margin-left: 24px;
+          }
+        }
+      }
+    }
+    :global {
+      .ant-form-item {
+        margin-bottom: 16px;
+      }
+    }
+  }
+}

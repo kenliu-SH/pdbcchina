@@ -1,0 +1,36 @@
+export default {
+  'login.title': '登入',
+  'login.desc': '歡迎加入我們。 Pdbc是全球PDB（wwPDB）的准成員。',
+  'login.Account': '郵箱',
+  'login.Password': '密碼',
+  'login.Password.rules.message1': '密碼格式不符合要求',
+  'login.Password.extra': '必須大於8比特並同時包含數位、大小寫字母和特殊字元',
+  'login.email.empty': '郵箱不能為空',
+  'login.email.error': '郵箱格式有誤',
+  'login.Password.empty': '密碼不能為空',
+  'login.placeholder1': '輸入電子郵件',
+  'login.placeholder2': '輸入密碼',
+  'login.placeholder3': '名',
+  'login.placeholder4': '姓',
+  'login.agree': '我同意',
+  'login.doc.title': '中國蛋白質結構資料庫',
+  'login.documentName1': '《服務使用協議及免責聲明》',
+  'login.documentName.and': '和',
+  'login.documentName2': '《用戶自律承諾書》',
+  'login.btnName': '進入',
+
+  'regsiter.title': '注册',
+  'register.form.label1': '中文姓名',
+  'register.form.label2': '英文姓名',
+  'register.form.label3': '電子郵件',
+  'register.form.label4': '密碼',
+  'register.form.label5': '確認密碼',
+  'regsiter.confirm': '確定',
+  'register.confirm.password': '您輸入的兩個密碼不匹配！',
+
+  'register.form.tips':
+    '輸入完整中英文姓名可為您智慧匹配您的結構數據並標注您的中文姓名',
+
+  'register.success.title': '提示',
+  'register.success.desc': '註冊申請已提交！ 請轉到您注册的電子郵件進行驗證',
+};

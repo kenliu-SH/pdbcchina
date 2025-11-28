@@ -1,0 +1,344 @@
+data_4NY6
+# 
+_entry.id   4NY6 
+# 
+_audit_conform.dict_name       mmcif_pdbx.dic 
+_audit_conform.dict_version    5.294 
+_audit_conform.dict_location   http://mmcif.pdb.org/dictionaries/ascii/mmcif_pdbx.dic 
+# 
+loop_
+_database_2.database_id 
+_database_2.database_code 
+PDB   4NY6         
+RCSB  RCSB083803   
+WWPDB D_1000083803 
+# 
+_pdbx_database_related.db_name        PDB 
+_pdbx_database_related.db_id          3QF6 
+_pdbx_database_related.details        . 
+_pdbx_database_related.content_type   unspecified 
+# 
+_pdbx_database_status.status_code                     REL 
+_pdbx_database_status.entry_id                        4NY6 
+_pdbx_database_status.recvd_initial_deposition_date   2013-12-10 
+_pdbx_database_status.deposit_site                    RCSB 
+_pdbx_database_status.process_site                    RCSB 
+_pdbx_database_status.status_code_sf                  REL 
+_pdbx_database_status.status_code_mr                  ? 
+_pdbx_database_status.SG_entry                        ? 
+_pdbx_database_status.status_code_cs                  ? 
+_pdbx_database_status.methods_development_category    ? 
+_pdbx_database_status.pdb_format_compatible           Y 
+# 
+loop_
+_audit_author.name 
+_audit_author.pdbx_ordinal 
+'Fisher, S.J.'         1  
+'Blakeley, M.P.'       2  
+'Howard, E.I.'         3  
+'Petite-Haertlein, I.' 4  
+'Haertlein, M.'        5  
+'Mitschler, A.'        6  
+'Cousido-Siah, A.'     7  
+'Salvaya, A.G.'        8  
+'Popov, A.'            9  
+'Muller-Dieckmann, C.' 10 
+'Petrova, T.'          11 
+'Podjarny, A.D.'       12 
+# 
+_citation.id                        primary 
+_citation.title                     
+'Perdeuteration: improved visualization of solvent structure in neutron macromolecular crystallography.' 
+_citation.journal_abbrev            'Acta Crystallogr.,Sect.D' 
+_citation.journal_volume            70 
+_citation.page_first                3266 
+_citation.page_last                 3272 
+_citation.year                      2014 
+_citation.journal_id_ASTM           ABCRE6 
+_citation.country                   DK 
+_citation.journal_id_ISSN           0907-4449 
+_citation.journal_id_CSD            0766 
+_citation.book_publisher            ? 
+_citation.pdbx_database_id_PubMed   25478844 
+_citation.pdbx_database_id_DOI      10.1107/S1399004714021610 
+# 
+loop_
+_citation_author.citation_id 
+_citation_author.name 
+_citation_author.ordinal 
+primary 'Fisher, S.J.'         1  
+primary 'Blakeley, M.P.'       2  
+primary 'Howard, E.I.'         3  
+primary 'Petit-Haertlein, I.'  4  
+primary 'Haertlein, M.'        5  
+primary 'Mitschler, A.'        6  
+primary 'Cousido-Siah, A.'     7  
+primary 'Salvay, A.G.'         8  
+primary 'Popov, A.'            9  
+primary 'Muller-Dieckmann, C.' 10 
+primary 'Petrova, T.'          11 
+primary 'Podjarny, A.'         12 
+# 
+_cell.entry_id           4NY6 
+_cell.length_a           32.730 
+_cell.length_b           39.120 
+_cell.length_c           46.540 
+_cell.angle_alpha        90.00 
+_cell.angle_beta         90.00 
+_cell.angle_gamma        90.00 
+_cell.Z_PDB              4 
+_cell.pdbx_unique_axis   ? 
+_cell.length_a_esd       ? 
+_cell.length_b_esd       ? 
+_cell.length_c_esd       ? 
+_cell.angle_alpha_esd    ? 
+_cell.angle_beta_esd     ? 
+_cell.angle_gamma_esd    ? 
+# 
+_symmetry.entry_id                         4NY6 
+_symmetry.space_group_name_H-M             'P 21 21 21' 
+_symmetry.pdbx_full_space_group_name_H-M   ? 
+_symmetry.cell_setting                     ? 
+_symmetry.Int_Tables_number                19 
+_symmetry.space_group_name_Hall            ? 
+# 
+loop_
+_entity.id 
+_entity.type 
+_entity.src_method 
+_entity.pdbx_description 
+_entity.formula_weight 
+_entity.pdbx_number_of_molecules 
+_entity.pdbx_ec 
+_entity.pdbx_mutation 
+_entity.pdbx_fragment 
+_entity.details 
+1 polymer man 'Type-3 ice-structuring protein HPLC 12' 6894.129 1  ? ? ? ? 
+2 water   nat water                                    18.015   42 ? ? ? ? 
+# 
+_entity_name_com.entity_id   1 
+_entity_name_com.name        'Antifreeze protein QAE(HPLC 12), ISP type III HPLC 12' 
+# 
+_entity_poly.entity_id                      1 
+_entity_poly.type                           'polypeptide(L)' 
+_entity_poly.nstd_linkage                   no 
+_entity_poly.nstd_monomer                   no 
+_entity_poly.pdbx_seq_one_letter_code       NQASVVANQLIPINTALTLVMMRSEVVTPVGIPADDIPRLVSMQVNRAVPLGTTLMPDMVKGYAA 
+_entity_poly.pdbx_seq_one_letter_code_can   NQASVVANQLIPINTALTLVMMRSEVVTPVGIPADDIPRLVSMQVNRAVPLGTTLMPDMVKGYAA 
+_entity_poly.pdbx_strand_id                 A 
+_entity_poly.pdbx_target_identifier         ? 
+# 
+loop_
+_entity_poly_seq.entity_id 
+_entity_poly_seq.num 
+_entity_poly_seq.mon_id 
+_entity_poly_seq.hetero 
+1 1  ASN n 
+1 2  GLN n 
+1 3  ALA n 
+1 4  SER n 
+1 5  VAL n 
+1 6  VAL n 
+1 7  ALA n 
+1 8  ASN n 
+1 9  GLN n 
+1 10 LEU n 
+1 11 ILE n 
+1 12 PRO n 
+1 13 ILE n 
+1 14 ASN n 
+1 15 THR n 
+1 16 ALA n 
+1 17 LEU n 
+1 18 THR n 
+1 19 LEU n 
+1 20 VAL n 
+1 21 MET n 
+1 22 MET n 
+1 23 ARG n 
+1 24 SER n 
+1 25 GLU n 
+1 26 VAL n 
+1 27 VAL n 
+1 28 THR n 
+1 29 PRO n 
+1 30 VAL n 
+1 31 GLY n 
+1 32 ILE n 
+1 33 PRO n 
+1 34 ALA n 
+1 35 ASP n 
+1 36 ASP n 
+1 37 ILE n 
+1 38 PRO n 
+1 39 ARG n 
+1 40 LEU n 
+1 41 VAL n 
+1 42 SER n 
+1 43 MET n 
+1 44 GLN n 
+1 45 VAL n 
+1 46 ASN n 
+1 47 ARG n 
+1 48 ALA n 
+1 49 VAL n 
+1 50 PRO n 
+1 51 LEU n 
+1 52 GLY n 
+1 53 THR n 
+1 54 THR n 
+1 55 LEU n 
+1 56 MET n 
+1 57 PRO n 
+1 58 ASP n 
+1 59 MET n 
+1 60 VAL n 
+1 61 LYS n 
+1 62 GLY n 
+1 63 TYR n 
+1 64 ALA n 
+1 65 ALA n 
+# 
+_entity_src_gen.entity_id                          1 
+_entity_src_gen.pdbx_src_id                        1 
+_entity_src_gen.pdbx_alt_source_flag               sample 
+_entity_src_gen.pdbx_seq_type                      ? 
+_entity_src_gen.pdbx_beg_seq_num                   ? 
+_entity_src_gen.pdbx_end_seq_num                   ? 
+_entity_src_gen.gene_src_common_name               'North-Atlantic ocean pout,mother-of-eels,muttonfish,poodler' 
+_entity_src_gen.gene_src_genus                     ? 
+_entity_src_gen.pdbx_gene_src_gene                 ? 
+_entity_src_gen.gene_src_species                   ? 
+_entity_src_gen.gene_src_strain                    ? 
+_entity_src_gen.gene_src_tissue                    ? 
+_entity_src_gen.gene_src_tissue_fraction           ? 
+_entity_src_gen.gene_src_details                   ? 
+_entity_src_gen.pdbx_gene_src_fragment             ? 
+_entity_src_gen.pdbx_gene_src_scientific_name      'Zoarces americanus' 
+_entity_src_gen.pdbx_gene_src_ncbi_taxonomy_id     8199 
+_entity_src_gen.pdbx_gene_src_variant              ? 
+_entity_src_gen.pdbx_gene_src_cell_line            ? 
+_entity_src_gen.pdbx_gene_src_atcc                 ? 
+_entity_src_gen.pdbx_gene_src_organ                ? 
+_entity_src_gen.pdbx_gene_src_organelle            ? 
+_entity_src_gen.pdbx_gene_src_cell                 ? 
+_entity_src_gen.pdbx_gene_src_cellular_location    ? 
+_entity_src_gen.host_org_common_name               ? 
+_entity_src_gen.pdbx_host_org_scientific_name      'Escherichia coli' 
+_entity_src_gen.pdbx_host_org_ncbi_taxonomy_id     469008 
+_entity_src_gen.host_org_genus                     ? 
+_entity_src_gen.pdbx_host_org_gene                 ? 
+_entity_src_gen.pdbx_host_org_organ                ? 
+_entity_src_gen.host_org_species                   ? 
+_entity_src_gen.pdbx_host_org_tissue               ? 
+_entity_src_gen.pdbx_host_org_tissue_fraction      ? 
+_entity_src_gen.pdbx_host_org_strain               'BL21(DE3)' 
+_entity_src_gen.pdbx_host_org_variant              ? 
+_entity_src_gen.pdbx_host_org_cell_line            ? 
+_entity_src_gen.pdbx_host_org_atcc                 ? 
+_entity_src_gen.pdbx_host_org_culture_collection   ? 
+_entity_src_gen.pdbx_host_org_cell                 ? 
+_entity_src_gen.pdbx_host_org_organelle            ? 
+_entity_src_gen.pdbx_host_org_cellular_location    ? 
+_entity_src_gen.pdbx_host_org_vector_type          ? 
+_entity_src_gen.pdbx_host_org_vector               ? 
+_entity_src_gen.host_org_details                   ? 
+_entity_src_gen.expression_system_id               ? 
+_entity_src_gen.plasmid_name                       pET-28a 
+_entity_src_gen.plasmid_details                    ? 
+_entity_src_gen.pdbx_description                   ? 
+# 
+_struct_ref.id                         1 
+_struct_ref.db_name                    UNP 
+_struct_ref.db_code                    ANP12_ZOAAM 
+_struct_ref.pdbx_db_accession          P19614 
+_struct_ref.entity_id                  1 
+_struct_ref.pdbx_seq_one_letter_code   NQASVVANQLIPINTALTLVMMRSEVVTPVGIPAEDIPRLVSMQVNRAVPLGTTLMPDMVKGY 
+_struct_ref.pdbx_align_begin           1 
+_struct_ref.pdbx_db_isoform            ? 
+# 
+_struct_ref_seq.align_id                      1 
+_struct_ref_seq.ref_id                        1 
+_struct_ref_seq.pdbx_PDB_id_code              4NY6 
+_struct_ref_seq.pdbx_strand_id                A 
+_struct_ref_seq.seq_align_beg                 1 
+_struct_ref_seq.pdbx_seq_align_beg_ins_code   ? 
+_struct_ref_seq.seq_align_end                 63 
+_struct_ref_seq.pdbx_seq_align_end_ins_code   ? 
+_struct_ref_seq.pdbx_db_accession             P19614 
+_struct_ref_seq.db_align_beg                  1 
+_struct_ref_seq.pdbx_db_align_beg_ins_code    ? 
+_struct_ref_seq.db_align_end                  63 
+_struct_ref_seq.pdbx_db_align_end_ins_code    ? 
+_struct_ref_seq.pdbx_auth_seq_align_beg       1 
+_struct_ref_seq.pdbx_auth_seq_align_end       63 
+# 
+loop_
+_struct_ref_seq_dif.align_id 
+_struct_ref_seq_dif.pdbx_pdb_id_code 
+_struct_ref_seq_dif.mon_id 
+_struct_ref_seq_dif.pdbx_pdb_strand_id 
+_struct_ref_seq_dif.seq_num 
+_struct_ref_seq_dif.pdbx_pdb_ins_code 
+_struct_ref_seq_dif.pdbx_seq_db_name 
+_struct_ref_seq_dif.pdbx_seq_db_accession_code 
+_struct_ref_seq_dif.db_mon_id 
+_struct_ref_seq_dif.pdbx_seq_db_seq_num 
+_struct_ref_seq_dif.details 
+_struct_ref_seq_dif.pdbx_auth_seq_num 
+_struct_ref_seq_dif.pdbx_ordinal 
+1 4NY6 ASP A 35 ? UNP P19614 GLU 35 CONFLICT         35 1 
+1 4NY6 ALA A 64 ? UNP P19614 ?   ?  'EXPRESSION TAG' 64 2 
+1 4NY6 ALA A 65 ? UNP P19614 ?   ?  'EXPRESSION TAG' 65 3 
+# 
+loop_
+_chem_comp.id 
+_chem_comp.type 
+_chem_comp.mon_nstd_flag 
+_chem_comp.name 
+_chem_comp.pdbx_synonyms 
+_chem_comp.formula 
+_chem_comp.formula_weight 
+ALA 'L-peptide linking' y ALANINE            ? 'C3 H7 N O2'     89.093  
+ARG 'L-peptide linking' y ARGININE           ? 'C6 H15 N4 O2 1' 175.209 
+ASN 'L-peptide linking' y ASPARAGINE         ? 'C4 H8 N2 O3'    132.118 
+ASP 'L-peptide linking' y 'ASPARTIC ACID'    ? 'C4 H7 N O4'     133.103 
+DOD non-polymer         . 'DEUTERATED WATER' ? 'D2 O'           20.028  
+GLN 'L-peptide linking' y GLUTAMINE          ? 'C5 H10 N2 O3'   146.144 
+GLU 'L-peptide linking' y 'GLUTAMIC ACID'    ? 'C5 H9 N O4'     147.129 
+GLY 'peptide linking'   y GLYCINE            ? 'C2 H5 N O2'     75.067  
+ILE 'L-peptide linking' y ISOLEUCINE         ? 'C6 H13 N O2'    131.173 
+LEU 'L-peptide linking' y LEUCINE            ? 'C6 H13 N O2'    131.173 
+LYS 'L-peptide linking' y LYSINE             ? 'C6 H15 N2 O2 1' 147.195 
+MET 'L-peptide linking' y METHIONINE         ? 'C5 H11 N O2 S'  149.211 
+PRO 'L-peptide linking' y PROLINE            ? 'C5 H9 N O2'     115.130 
+SER 'L-peptide linking' y SERINE             ? 'C3 H7 N O3'     105.093 
+THR 'L-peptide linking' y THREONINE          ? 'C4 H9 N O3'     119.119 
+TYR 'L-peptide linking' y TYROSINE           ? 'C9 H11 N O3'    181.189 
+VAL 'L-peptide linking' y VALINE             ? 'C5 H11 N O2'    117.146 
+# 
+loop_
+_exptl.entry_id 
+_exptl.method 
+_exptl.crystals_number 
+4NY6 'NEUTRON DIFFRACTION' 1 
+4NY6 'X-RAY DIFFRACTION'   1 
+# 
+_exptl_crystal.id                    1 
+_exptl_crystal.density_meas          ? 
+_exptl_crystal.density_Matthews      2.16 
+_exptl_crystal.density_percent_sol   43.08 
+_exptl_crystal.description           ? 
+_exptl_crystal.F_000                 ? 
+_exptl_crystal.preparation           ? 
+# 
+_exptl_crystal_grow.crystal_id      1 
+_exptl_crystal_grow.method          'VAPOR DIFFUSION, SITTING DROP' 
+_exptl_crystal_grow.temp            285 
+_exptl_crystal_grow.temp_details    ? 
+_exptl_crystal_grow.pH              5.2 
+_exptl_crystal_grow.pdbx_pH_range   ? 
+_exptl_crystal_grow.pdbx_details    
+;10mg/ml protein in 50 mM sodium acetate pD 5.2. Drops containing 20 ml protein solution and 30 ml precipitant buffer (2.1 M ammonium sulfate, 9% d8-glycerol) were equilibrated against 1 ml precipitant buffer in the reservoir, VAPOR DIFFUSION, SITTING DROP, temperature 285K
+;
+#

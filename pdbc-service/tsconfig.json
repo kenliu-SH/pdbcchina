@@ -1,0 +1,27 @@
+{
+  "include": ["src", "libs/ciftools"],
+  "exclude": ["**/*.spec.ts", "**/*.spec.js", "node_modules"],
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports":true,
+    "emitDecoratorMetadata": true,
+    "removeComments": false,
+    "incremental": false,
+    "skipLibCheck":true,
+    "declaration": true,
+    "resolveJsonModule": true,
+    "sourceMap": false,
+    "module": "CommonJS",
+    "target": "ESNext",
+    "lib": ["ESNext","dom"],
+    "outDir": "dist",
+    "baseUrl": ".",
+    "paths": {
+      "@core/*": ["src/core/*"],
+      "@common/*": ["src/common/*"],
+      "@library/*": ["src/library/*"],
+      "@modules/*": ["src/modules/*"],
+      "@model/*": ["src/model/*"]
+    }
+  }
+}

@@ -1,0 +1,43 @@
+.subscribe_container {
+  .subscribe_item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+    border-bottom: 1px solid rgba(220, 220, 220, 1);
+    .left_search_json {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 60%;
+    }
+    .query_btn {
+      margin-right: 32px;
+    }
+    @media (max-width: 768px) {
+      padding: 4px 0;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      .left_search_json {
+        width: 100%;
+        max-width: 100%;
+      }
+      .right_action {
+        margin-top: 12px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+      }
+    }
+  }
+  .pagination {
+    padding: 12px 0;
+    text-align: right;
+  }
+  .subscribe_btn {
+    min-width: 85px;
+  }
+}

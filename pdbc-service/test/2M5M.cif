@@ -1,0 +1,963 @@
+data_2M5M
+# 
+_entry.id   2M5M 
+# 
+_audit_conform.dict_name       mmcif_pdbx.dic 
+_audit_conform.dict_version    5.323 
+_audit_conform.dict_location   http://mmcif.pdb.org/dictionaries/ascii/mmcif_pdbx.dic 
+# 
+loop_
+_database_2.database_id 
+_database_2.database_code 
+PDB   2M5M         
+RCSB  RCSB103238   
+BMRB  19060        
+WWPDB D_1000103238 
+# 
+loop_
+_pdbx_database_related.db_id 
+_pdbx_database_related.db_name 
+_pdbx_database_related.content_type 
+_pdbx_database_related.details 
+19060    BMRB unspecified            . 
+EMD-2323 EMDB 'associated EM volume' . 
+EMD-5590 EMDB 'other EM volume'      . 
+EMD-2324 EMDB 'other EM volume'      . 
+3ZPK     PDB  unspecified            . 
+2M5K     PDB  unspecified            . 
+2M5N     PDB  unspecified            . 
+# 
+_pdbx_database_status.deposit_site                    BMRB 
+_pdbx_database_status.entry_id                        2M5M 
+_pdbx_database_status.process_site                    RCSB 
+_pdbx_database_status.recvd_initial_deposition_date   2013-02-27 
+_pdbx_database_status.SG_entry                        ? 
+_pdbx_database_status.status_code                     REL 
+_pdbx_database_status.status_code_mr                  ? 
+_pdbx_database_status.status_code_sf                  ? 
+_pdbx_database_status.status_code_cs                  REL 
+_pdbx_database_status.methods_development_category    ? 
+_pdbx_database_status.pdb_format_compatible           Y 
+# 
+loop_
+_audit_author.name 
+_audit_author.pdbx_ordinal 
+'Fitzpatrick, A.W.P.' 1  
+'Debelouchina, G.T.'  2  
+'Bayro, M.J.'         3  
+'Clare, D.K.'         4  
+'Caporini, M.A.'      5  
+'Bajaj, V.S.'         6  
+'Jaroniec, C.P.'      7  
+'Wang, L.'            8  
+'Ladizhansky, V.'     9  
+'Muller, S.'          10 
+'MacPhee, C.E.'       11 
+'Waudby, C.A.'        12 
+'Mott, H.R.'          13 
+'de Simone, A.'       14 
+'Knowles, T.P.J.'     15 
+'Saibil, H.R.'        16 
+'Vendruscolo, M.'     17 
+'Orlova, E.V.'        18 
+'Griffin, R.G.'       19 
+'Dobson, C.M.'        20 
+# 
+_citation.id                        primary 
+_citation.title                     'Atomic structure and hierarchical assembly of a cross-beta amyloid fibril.' 
+_citation.journal_abbrev            Proc.Natl.Acad.Sci.USA 
+_citation.journal_volume            110 
+_citation.page_first                5468 
+_citation.page_last                 5473 
+_citation.year                      2013 
+_citation.journal_id_ASTM           PNASA6 
+_citation.country                   US 
+_citation.journal_id_ISSN           0027-8424 
+_citation.journal_id_CSD            0040 
+_citation.book_publisher            ? 
+_citation.pdbx_database_id_PubMed   23513222 
+_citation.pdbx_database_id_DOI      10.1073/pnas.1219476110 
+# 
+loop_
+_citation_author.citation_id 
+_citation_author.name 
+_citation_author.ordinal 
+_citation_author.identifier_ORCID 
+primary 'Fitzpatrick, A.W.'  1  ? 
+primary 'Debelouchina, G.T.' 2  ? 
+primary 'Bayro, M.J.'        3  ? 
+primary 'Clare, D.K.'        4  ? 
+primary 'Caporini, M.A.'     5  ? 
+primary 'Bajaj, V.S.'        6  ? 
+primary 'Jaroniec, C.P.'     7  ? 
+primary 'Wang, L.'           8  ? 
+primary 'Ladizhansky, V.'    9  ? 
+primary 'Muller, S.A.'       10 ? 
+primary 'MacPhee, C.E.'      11 ? 
+primary 'Waudby, C.A.'       12 ? 
+primary 'Mott, H.R.'         13 ? 
+primary 'De Simone, A.'      14 ? 
+primary 'Knowles, T.P.'      15 ? 
+primary 'Saibil, H.R.'       16 ? 
+primary 'Vendruscolo, M.'    17 ? 
+primary 'Orlova, E.V.'       18 ? 
+primary 'Griffin, R.G.'      19 ? 
+primary 'Dobson, C.M.'       20 ? 
+# 
+_entity.id                         1 
+_entity.type                       polymer 
+_entity.src_method                 syn 
+_entity.pdbx_description           Transthyretin 
+_entity.formula_weight             1198.366 
+_entity.pdbx_number_of_molecules   12 
+_entity.pdbx_ec                    ? 
+_entity.pdbx_mutation              ? 
+_entity.pdbx_fragment              'residues 125-135' 
+_entity.details                    ? 
+# 
+_entity_name_com.entity_id   1 
+_entity_name_com.name        'Prealbumin, TBPA' 
+# 
+_entity_poly.entity_id                      1 
+_entity_poly.type                           'polypeptide(L)' 
+_entity_poly.nstd_linkage                   no 
+_entity_poly.nstd_monomer                   no 
+_entity_poly.pdbx_seq_one_letter_code       YTIAALLSPYS 
+_entity_poly.pdbx_seq_one_letter_code_can   YTIAALLSPYS 
+_entity_poly.pdbx_strand_id                 A,B,C,D,E,F,G,H,I,J,K,L 
+_entity_poly.pdbx_target_identifier         ? 
+# 
+loop_
+_entity_poly_seq.entity_id 
+_entity_poly_seq.num 
+_entity_poly_seq.mon_id 
+_entity_poly_seq.hetero 
+1 1  TYR n 
+1 2  THR n 
+1 3  ILE n 
+1 4  ALA n 
+1 5  ALA n 
+1 6  LEU n 
+1 7  LEU n 
+1 8  SER n 
+1 9  PRO n 
+1 10 TYR n 
+1 11 SER n 
+# 
+_pdbx_entity_src_syn.entity_id              1 
+_pdbx_entity_src_syn.pdbx_src_id            1 
+_pdbx_entity_src_syn.pdbx_alt_source_flag   sample 
+_pdbx_entity_src_syn.pdbx_beg_seq_num       ? 
+_pdbx_entity_src_syn.pdbx_end_seq_num       ? 
+_pdbx_entity_src_syn.organism_scientific    'Rattus norvegicus' 
+_pdbx_entity_src_syn.organism_common_name   rat 
+_pdbx_entity_src_syn.ncbi_taxonomy_id       10116 
+_pdbx_entity_src_syn.details                ? 
+# 
+_struct_ref.id                         1 
+_struct_ref.db_name                    UNP 
+_struct_ref.db_code                    TTHY_RAT 
+_struct_ref.pdbx_db_accession          P02767 
+_struct_ref.entity_id                  1 
+_struct_ref.pdbx_seq_one_letter_code   YTIAALLSPYS 
+_struct_ref.pdbx_align_begin           125 
+_struct_ref.pdbx_db_isoform            ? 
+# 
+loop_
+_struct_ref_seq.align_id 
+_struct_ref_seq.ref_id 
+_struct_ref_seq.pdbx_PDB_id_code 
+_struct_ref_seq.pdbx_strand_id 
+_struct_ref_seq.seq_align_beg 
+_struct_ref_seq.pdbx_seq_align_beg_ins_code 
+_struct_ref_seq.seq_align_end 
+_struct_ref_seq.pdbx_seq_align_end_ins_code 
+_struct_ref_seq.pdbx_db_accession 
+_struct_ref_seq.db_align_beg 
+_struct_ref_seq.pdbx_db_align_beg_ins_code 
+_struct_ref_seq.db_align_end 
+_struct_ref_seq.pdbx_db_align_end_ins_code 
+_struct_ref_seq.pdbx_auth_seq_align_beg 
+_struct_ref_seq.pdbx_auth_seq_align_end 
+1  1 2M5M A 1 ? 11 ? P02767 125 ? 135 ? 1 11 
+2  1 2M5M B 1 ? 11 ? P02767 125 ? 135 ? 1 11 
+3  1 2M5M C 1 ? 11 ? P02767 125 ? 135 ? 1 11 
+4  1 2M5M D 1 ? 11 ? P02767 125 ? 135 ? 1 11 
+5  1 2M5M E 1 ? 11 ? P02767 125 ? 135 ? 1 11 
+6  1 2M5M F 1 ? 11 ? P02767 125 ? 135 ? 1 11 
+7  1 2M5M G 1 ? 11 ? P02767 125 ? 135 ? 1 11 
+8  1 2M5M H 1 ? 11 ? P02767 125 ? 135 ? 1 11 
+9  1 2M5M I 1 ? 11 ? P02767 125 ? 135 ? 1 11 
+10 1 2M5M J 1 ? 11 ? P02767 125 ? 135 ? 1 11 
+11 1 2M5M K 1 ? 11 ? P02767 125 ? 135 ? 1 11 
+12 1 2M5M L 1 ? 11 ? P02767 125 ? 135 ? 1 11 
+# 
+loop_
+_chem_comp.id 
+_chem_comp.type 
+_chem_comp.mon_nstd_flag 
+_chem_comp.name 
+_chem_comp.pdbx_synonyms 
+_chem_comp.formula 
+_chem_comp.formula_weight 
+ALA 'L-peptide linking' y ALANINE    ? 'C3 H7 N O2'  89.093  
+ILE 'L-peptide linking' y ISOLEUCINE ? 'C6 H13 N O2' 131.173 
+LEU 'L-peptide linking' y LEUCINE    ? 'C6 H13 N O2' 131.173 
+PRO 'L-peptide linking' y PROLINE    ? 'C5 H9 N O2'  115.130 
+SER 'L-peptide linking' y SERINE     ? 'C3 H7 N O3'  105.093 
+THR 'L-peptide linking' y THREONINE  ? 'C4 H9 N O3'  119.119 
+TYR 'L-peptide linking' y TYROSINE   ? 'C9 H11 N O3' 181.189 
+# 
+loop_
+_pdbx_nmr_exptl.conditions_id 
+_pdbx_nmr_exptl.experiment_id 
+_pdbx_nmr_exptl.solution_id 
+_pdbx_nmr_exptl.type 
+1 1 1 '1D DQ-DRAWS' 
+1 2 1 REDOR         
+1 3 1 ZF-TEDOR      
+1 4 1 '2D PDSD'     
+# 
+_pdbx_nmr_exptl_sample_conditions.conditions_id       1 
+_pdbx_nmr_exptl_sample_conditions.ionic_strength      ? 
+_pdbx_nmr_exptl_sample_conditions.pH                  2 
+_pdbx_nmr_exptl_sample_conditions.pressure            ambient 
+_pdbx_nmr_exptl_sample_conditions.pressure_units      ? 
+_pdbx_nmr_exptl_sample_conditions.temperature         . 
+_pdbx_nmr_exptl_sample_conditions.temperature_units   K 
+# 
+_pdbx_nmr_sample_details.contents         '15 mg/mL [U-100% 13C; U-100% 15N] TTR(105-115), 10% acetonitrile/H2O' 
+_pdbx_nmr_sample_details.solution_id      1 
+_pdbx_nmr_sample_details.solvent_system   '10% acetonitrile/H2O' 
+# 
+loop_
+_pdbx_nmr_spectrometer.field_strength 
+_pdbx_nmr_spectrometer.manufacturer 
+_pdbx_nmr_spectrometer.model 
+_pdbx_nmr_spectrometer.spectrometer_id 
+_pdbx_nmr_spectrometer.type 
+900 Bruker ? 1 Bruker 
+750 .      ? 2 ?      
+500 .      ? 3 ?      
+# 
+_pdbx_nmr_refine.entry_id           2M5M 
+_pdbx_nmr_refine.method             'simulated annealing' 
+_pdbx_nmr_refine.details            ? 
+_pdbx_nmr_refine.software_ordinal   2 
+# 
+_pdbx_nmr_ensemble.average_constraint_violations_per_residue     ? 
+_pdbx_nmr_ensemble.average_constraints_per_residue               ? 
+_pdbx_nmr_ensemble.average_distance_constraint_violation         ? 
+_pdbx_nmr_ensemble.average_torsion_angle_constraint_violation    ? 
+_pdbx_nmr_ensemble.conformer_selection_criteria                  'structures with the least restraint violations' 
+_pdbx_nmr_ensemble.conformers_calculated_total_number            100 
+_pdbx_nmr_ensemble.conformers_submitted_total_number             1 
+_pdbx_nmr_ensemble.distance_constraint_violation_method          ? 
+_pdbx_nmr_ensemble.entry_id                                      2M5M 
+_pdbx_nmr_ensemble.maximum_distance_constraint_violation         ? 
+_pdbx_nmr_ensemble.maximum_lower_distance_constraint_violation   ? 
+_pdbx_nmr_ensemble.maximum_torsion_angle_constraint_violation    ? 
+_pdbx_nmr_ensemble.maximum_upper_distance_constraint_violation   ? 
+_pdbx_nmr_ensemble.torsion_angle_constraint_violation_method     ? 
+# 
+_pdbx_nmr_representative.conformer_id         1 
+_pdbx_nmr_representative.entry_id             2M5M 
+_pdbx_nmr_representative.selection_criteria   'lowest energy' 
+# 
+loop_
+_pdbx_nmr_software.authors 
+_pdbx_nmr_software.classification 
+_pdbx_nmr_software.name 
+_pdbx_nmr_software.version 
+_pdbx_nmr_software.ordinal 
+'Brunger, Adams, Clore, Gros, Nilges and Read' 'structure solution' CNSSOLVE ? 1 
+'Brunger, Adams, Clore, Gros, Nilges and Read' refinement           CNSSOLVE ? 2 
+# 
+loop_
+_exptl.absorpt_coefficient_mu 
+_exptl.absorpt_correction_T_max 
+_exptl.absorpt_correction_T_min 
+_exptl.absorpt_correction_type 
+_exptl.absorpt_process_details 
+_exptl.crystals_number 
+_exptl.details 
+_exptl.entry_id 
+_exptl.method 
+_exptl.method_details 
+? ? ? ? ? ? ? 2M5M 'SOLID-STATE NMR'     ? 
+? ? ? ? ? ? ? 2M5M 'ELECTRON MICROSCOPY' ? 
+# 
+_refine_hist.pdbx_refine_id                   'ELECTRON MICROSCOPY' 
+_refine_hist.cycle_id                         LAST 
+_refine_hist.pdbx_number_atoms_protein        1020 
+_refine_hist.pdbx_number_atoms_nucleic_acid   0 
+_refine_hist.pdbx_number_atoms_ligand         0 
+_refine_hist.number_atoms_solvent             0 
+_refine_hist.number_atoms_total               1020 
+_refine_hist.d_res_high                       . 
+_refine_hist.d_res_low                        . 
+# 
+_struct.entry_id                  2M5M 
+_struct.title                     'Atomic-resolution structure of a triplet cross-beta amyloid fibril' 
+_struct.pdbx_descriptor           Transthyretin 
+_struct.pdbx_model_details        'lowest energy, model1' 
+_struct.pdbx_CASP_flag            ? 
+_struct.pdbx_model_type_details   ? 
+# 
+_struct_keywords.entry_id        2M5M 
+_struct_keywords.pdbx_keywords   'PROTEIN FIBRIL' 
+_struct_keywords.text            'Amyloid fibril, Cross-beta structure, PROTEIN FIBRIL' 
+# 
+loop_
+_struct_asym.id 
+_struct_asym.pdbx_blank_PDB_chainid_flag 
+_struct_asym.pdbx_modified 
+_struct_asym.entity_id 
+_struct_asym.details 
+A N N 1 ? 
+B N N 1 ? 
+C N N 1 ? 
+D N N 1 ? 
+E N N 1 ? 
+F N N 1 ? 
+G N N 1 ? 
+H N N 1 ? 
+I N N 1 ? 
+J N N 1 ? 
+K N N 1 ? 
+L N N 1 ? 
+# 
+_struct_biol.id        1 
+_struct_biol.details   ? 
+# 
+_atom_sites.entry_id                    2M5M 
+_atom_sites.fract_transf_matrix[1][1]   1.000000 
+_atom_sites.fract_transf_matrix[1][2]   0.000000 
+_atom_sites.fract_transf_matrix[1][3]   0.000000 
+_atom_sites.fract_transf_matrix[2][1]   0.000000 
+_atom_sites.fract_transf_matrix[2][2]   1.000000 
+_atom_sites.fract_transf_matrix[2][3]   0.000000 
+_atom_sites.fract_transf_matrix[3][1]   0.000000 
+_atom_sites.fract_transf_matrix[3][2]   0.000000 
+_atom_sites.fract_transf_matrix[3][3]   1.000000 
+_atom_sites.fract_transf_vector[1]      0.00000 
+_atom_sites.fract_transf_vector[2]      0.00000 
+_atom_sites.fract_transf_vector[3]      0.00000 
+# 
+loop_
+_atom_type.symbol 
+C 
+H 
+N 
+O 
+# 
+loop_
+_pdbx_poly_seq_scheme.asym_id 
+_pdbx_poly_seq_scheme.entity_id 
+_pdbx_poly_seq_scheme.seq_id 
+_pdbx_poly_seq_scheme.mon_id 
+_pdbx_poly_seq_scheme.ndb_seq_num 
+_pdbx_poly_seq_scheme.pdb_seq_num 
+_pdbx_poly_seq_scheme.auth_seq_num 
+_pdbx_poly_seq_scheme.pdb_mon_id 
+_pdbx_poly_seq_scheme.auth_mon_id 
+_pdbx_poly_seq_scheme.pdb_strand_id 
+_pdbx_poly_seq_scheme.pdb_ins_code 
+_pdbx_poly_seq_scheme.hetero 
+A 1 1  TYR 1  1  1  TYR TYR A . n 
+A 1 2  THR 2  2  2  THR THR A . n 
+A 1 3  ILE 3  3  3  ILE ILE A . n 
+A 1 4  ALA 4  4  4  ALA ALA A . n 
+A 1 5  ALA 5  5  5  ALA ALA A . n 
+A 1 6  LEU 6  6  6  LEU LEU A . n 
+A 1 7  LEU 7  7  7  LEU LEU A . n 
+A 1 8  SER 8  8  8  SER SER A . n 
+A 1 9  PRO 9  9  9  PRO PRO A . n 
+A 1 10 TYR 10 10 10 TYR TYR A . n 
+A 1 11 SER 11 11 11 SER SER A . n 
+B 1 1  TYR 1  1  1  TYR TYR B . n 
+B 1 2  THR 2  2  2  THR THR B . n 
+B 1 3  ILE 3  3  3  ILE ILE B . n 
+B 1 4  ALA 4  4  4  ALA ALA B . n 
+B 1 5  ALA 5  5  5  ALA ALA B . n 
+B 1 6  LEU 6  6  6  LEU LEU B . n 
+B 1 7  LEU 7  7  7  LEU LEU B . n 
+B 1 8  SER 8  8  8  SER SER B . n 
+B 1 9  PRO 9  9  9  PRO PRO B . n 
+B 1 10 TYR 10 10 10 TYR TYR B . n 
+B 1 11 SER 11 11 11 SER SER B . n 
+C 1 1  TYR 1  1  1  TYR TYR C . n 
+C 1 2  THR 2  2  2  THR THR C . n 
+C 1 3  ILE 3  3  3  ILE ILE C . n 
+C 1 4  ALA 4  4  4  ALA ALA C . n 
+C 1 5  ALA 5  5  5  ALA ALA C . n 
+C 1 6  LEU 6  6  6  LEU LEU C . n 
+C 1 7  LEU 7  7  7  LEU LEU C . n 
+C 1 8  SER 8  8  8  SER SER C . n 
+C 1 9  PRO 9  9  9  PRO PRO C . n 
+C 1 10 TYR 10 10 10 TYR TYR C . n 
+C 1 11 SER 11 11 11 SER SER C . n 
+D 1 1  TYR 1  1  1  TYR TYR D . n 
+D 1 2  THR 2  2  2  THR THR D . n 
+D 1 3  ILE 3  3  3  ILE ILE D . n 
+D 1 4  ALA 4  4  4  ALA ALA D . n 
+D 1 5  ALA 5  5  5  ALA ALA D . n 
+D 1 6  LEU 6  6  6  LEU LEU D . n 
+D 1 7  LEU 7  7  7  LEU LEU D . n 
+D 1 8  SER 8  8  8  SER SER D . n 
+D 1 9  PRO 9  9  9  PRO PRO D . n 
+D 1 10 TYR 10 10 10 TYR TYR D . n 
+D 1 11 SER 11 11 11 SER SER D . n 
+E 1 1  TYR 1  1  1  TYR TYR E . n 
+E 1 2  THR 2  2  2  THR THR E . n 
+E 1 3  ILE 3  3  3  ILE ILE E . n 
+E 1 4  ALA 4  4  4  ALA ALA E . n 
+E 1 5  ALA 5  5  5  ALA ALA E . n 
+E 1 6  LEU 6  6  6  LEU LEU E . n 
+E 1 7  LEU 7  7  7  LEU LEU E . n 
+E 1 8  SER 8  8  8  SER SER E . n 
+E 1 9  PRO 9  9  9  PRO PRO E . n 
+E 1 10 TYR 10 10 10 TYR TYR E . n 
+E 1 11 SER 11 11 11 SER SER E . n 
+F 1 1  TYR 1  1  1  TYR TYR F . n 
+F 1 2  THR 2  2  2  THR THR F . n 
+F 1 3  ILE 3  3  3  ILE ILE F . n 
+F 1 4  ALA 4  4  4  ALA ALA F . n 
+F 1 5  ALA 5  5  5  ALA ALA F . n 
+F 1 6  LEU 6  6  6  LEU LEU F . n 
+F 1 7  LEU 7  7  7  LEU LEU F . n 
+F 1 8  SER 8  8  8  SER SER F . n 
+F 1 9  PRO 9  9  9  PRO PRO F . n 
+F 1 10 TYR 10 10 10 TYR TYR F . n 
+F 1 11 SER 11 11 11 SER SER F . n 
+G 1 1  TYR 1  1  1  TYR TYR G . n 
+G 1 2  THR 2  2  2  THR THR G . n 
+G 1 3  ILE 3  3  3  ILE ILE G . n 
+G 1 4  ALA 4  4  4  ALA ALA G . n 
+G 1 5  ALA 5  5  5  ALA ALA G . n 
+G 1 6  LEU 6  6  6  LEU LEU G . n 
+G 1 7  LEU 7  7  7  LEU LEU G . n 
+G 1 8  SER 8  8  8  SER SER G . n 
+G 1 9  PRO 9  9  9  PRO PRO G . n 
+G 1 10 TYR 10 10 10 TYR TYR G . n 
+G 1 11 SER 11 11 11 SER SER G . n 
+H 1 1  TYR 1  1  1  TYR TYR H . n 
+H 1 2  THR 2  2  2  THR THR H . n 
+H 1 3  ILE 3  3  3  ILE ILE H . n 
+H 1 4  ALA 4  4  4  ALA ALA H . n 
+H 1 5  ALA 5  5  5  ALA ALA H . n 
+H 1 6  LEU 6  6  6  LEU LEU H . n 
+H 1 7  LEU 7  7  7  LEU LEU H . n 
+H 1 8  SER 8  8  8  SER SER H . n 
+H 1 9  PRO 9  9  9  PRO PRO H . n 
+H 1 10 TYR 10 10 10 TYR TYR H . n 
+H 1 11 SER 11 11 11 SER SER H . n 
+I 1 1  TYR 1  1  1  TYR TYR I . n 
+I 1 2  THR 2  2  2  THR THR I . n 
+I 1 3  ILE 3  3  3  ILE ILE I . n 
+I 1 4  ALA 4  4  4  ALA ALA I . n 
+I 1 5  ALA 5  5  5  ALA ALA I . n 
+I 1 6  LEU 6  6  6  LEU LEU I . n 
+I 1 7  LEU 7  7  7  LEU LEU I . n 
+I 1 8  SER 8  8  8  SER SER I . n 
+I 1 9  PRO 9  9  9  PRO PRO I . n 
+I 1 10 TYR 10 10 10 TYR TYR I . n 
+I 1 11 SER 11 11 11 SER SER I . n 
+J 1 1  TYR 1  1  1  TYR TYR J . n 
+J 1 2  THR 2  2  2  THR THR J . n 
+J 1 3  ILE 3  3  3  ILE ILE J . n 
+J 1 4  ALA 4  4  4  ALA ALA J . n 
+J 1 5  ALA 5  5  5  ALA ALA J . n 
+J 1 6  LEU 6  6  6  LEU LEU J . n 
+J 1 7  LEU 7  7  7  LEU LEU J . n 
+J 1 8  SER 8  8  8  SER SER J . n 
+J 1 9  PRO 9  9  9  PRO PRO J . n 
+J 1 10 TYR 10 10 10 TYR TYR J . n 
+J 1 11 SER 11 11 11 SER SER J . n 
+K 1 1  TYR 1  1  1  TYR TYR K . n 
+K 1 2  THR 2  2  2  THR THR K . n 
+K 1 3  ILE 3  3  3  ILE ILE K . n 
+K 1 4  ALA 4  4  4  ALA ALA K . n 
+K 1 5  ALA 5  5  5  ALA ALA K . n 
+K 1 6  LEU 6  6  6  LEU LEU K . n 
+K 1 7  LEU 7  7  7  LEU LEU K . n 
+K 1 8  SER 8  8  8  SER SER K . n 
+K 1 9  PRO 9  9  9  PRO PRO K . n 
+K 1 10 TYR 10 10 10 TYR TYR K . n 
+K 1 11 SER 11 11 11 SER SER K . n 
+L 1 1  TYR 1  1  1  TYR TYR L . n 
+L 1 2  THR 2  2  2  THR THR L . n 
+L 1 3  ILE 3  3  3  ILE ILE L . n 
+L 1 4  ALA 4  4  4  ALA ALA L . n 
+L 1 5  ALA 5  5  5  ALA ALA L . n 
+L 1 6  LEU 6  6  6  LEU LEU L . n 
+L 1 7  LEU 7  7  7  LEU LEU L . n 
+L 1 8  SER 8  8  8  SER SER L . n 
+L 1 9  PRO 9  9  9  PRO PRO L . n 
+L 1 10 TYR 10 10 10 TYR TYR L . n 
+L 1 11 SER 11 11 11 SER SER L . n 
+# 
+loop_
+_pdbx_struct_assembly.id 
+_pdbx_struct_assembly.details 
+_pdbx_struct_assembly.method_details 
+_pdbx_struct_assembly.oligomeric_details 
+_pdbx_struct_assembly.oligomeric_count 
+1 'representative helical assembly' ? helical     114 
+2 'helical asymmetric unit'         ? dodecameric 12  
+# 
+loop_
+_pdbx_struct_assembly_gen.assembly_id 
+_pdbx_struct_assembly_gen.oper_expression 
+_pdbx_struct_assembly_gen.asym_id_list 
+1 '(1-114)' A,B,C,D,E,F,G,H,I,J,K,L 
+2 1         A,B,C,D,E,F,G,H,I,J,K,L 
+# 
+loop_
+_pdbx_struct_oper_list.id 
+_pdbx_struct_oper_list.type 
+_pdbx_struct_oper_list.name 
+_pdbx_struct_oper_list.symmetry_operation 
+_pdbx_struct_oper_list.matrix[1][1] 
+_pdbx_struct_oper_list.matrix[1][2] 
+_pdbx_struct_oper_list.matrix[1][3] 
+_pdbx_struct_oper_list.vector[1] 
+_pdbx_struct_oper_list.matrix[2][1] 
+_pdbx_struct_oper_list.matrix[2][2] 
+_pdbx_struct_oper_list.matrix[2][3] 
+_pdbx_struct_oper_list.vector[2] 
+_pdbx_struct_oper_list.matrix[3][1] 
+_pdbx_struct_oper_list.matrix[3][2] 
+_pdbx_struct_oper_list.matrix[3][3] 
+_pdbx_struct_oper_list.vector[3] 
+1   'helical symmetry operation' ? ? 1.00000000  0.00000000  0.00000000  0.00000 0.00000000 1.00000000  0.00000000  0.00000 
+0.00000000 0.00000000  1.00000000 0.00000    
+2   'helical symmetry operation' ? ? 0.99987000  -0.01619000 -0.00002000 0.02837 0.01619000 0.99987000  0.00000000  0.00077 
+0.00002000 0.00000000  1.00000000 -4.66913   
+3   'helical symmetry operation' ? ? 0.99948000  -0.03238000 -0.00004000 0.05607 0.03238000 0.99948000  0.00000000  0.00123 
+0.00004000 -0.00001000 1.00000000 -9.33957   
+4   'helical symmetry operation' ? ? 0.99882000  -0.04856000 -0.00006000 0.08481 0.04856000 0.99882000  0.00001000  0.00250 
+0.00006000 -0.00001000 1.00000000 -14.00952  
+5   'helical symmetry operation' ? ? 0.99790000  -0.06473000 -0.00008000 0.11326 0.06473000 0.99790000  0.00001000  0.00426 
+0.00008000 -0.00001000 1.00000000 -18.67961  
+6   'helical symmetry operation' ? ? 0.99672000  -0.08088000 -0.00010000 0.14176 0.08088000 0.99672000  0.00001000  0.00653 
+0.00010000 -0.00001000 1.00000000 -23.34938  
+7   'helical symmetry operation' ? ? 0.99528000  -0.09701000 -0.00012000 0.17046 0.09701000 0.99528000  0.00001000  0.00910 
+0.00012000 -0.00002000 1.00000000 -28.01962  
+8   'helical symmetry operation' ? ? 0.99358000  -0.11311000 -0.00014000 0.19871 0.11311000 0.99358000  0.00001000  0.01172 
+0.00014000 -0.00003000 1.00000000 -32.68961  
+9   'helical symmetry operation' ? ? 0.99162000  -0.12918000 -0.00016000 0.22715 0.12918000 0.99162000  0.00001000  0.01533 
+0.00015000 -0.00003000 1.00000000 -37.35913  
+10  'helical symmetry operation' ? ? 0.98940000  -0.14522000 -0.00018000 0.25586 0.14522000 0.98940000  0.00001000  0.01920 
+0.00017000 -0.00003000 1.00000000 -42.02959  
+11  'helical symmetry operation' ? ? 0.98692000  -0.16123000 -0.00020000 0.28473 0.16123000 0.98692000  0.00001000  0.02360 
+0.00019000 -0.00004000 1.00000000 -46.69931  
+12  'helical symmetry operation' ? ? 0.98418000  -0.17718000 -0.00022000 0.31327 0.17718000 0.98418000  0.00001000  0.02853 
+0.00021000 -0.00005000 1.00000000 -51.36960  
+13  'helical symmetry operation' ? ? 0.98118000  -0.19310000 -0.00024000 0.34215 0.19310000 0.98118000  0.00001000  0.03400 
+0.00023000 -0.00005000 1.00000000 -56.03931  
+14  'helical symmetry operation' ? ? 0.97792000  -0.20896000 -0.00026000 0.37060 0.20896000 0.97792000  0.00001000  0.03930 
+0.00025000 -0.00006000 1.00000000 -60.70946  
+15  'helical symmetry operation' ? ? 0.97441000  -0.22477000 -0.00028000 0.39923 0.22477000 0.97441000  0.00000000  0.04558 
+0.00027000 -0.00007000 1.00000000 -65.37939  
+16  'helical symmetry operation' ? ? 0.97065000  -0.24052000 -0.00030000 0.42828 0.24052000 0.97065000  0.00000000  0.05259 
+0.00029000 -0.00007000 1.00000000 -70.04941  
+17  'helical symmetry operation' ? ? 0.96662000  -0.25620000 -0.00031000 0.45660 0.25620000 0.96662000  0.00000000  0.05933 
+0.00030000 -0.00008000 1.00000000 -74.71945  
+18  'helical symmetry operation' ? ? 0.96235000  -0.27182000 -0.00034000 0.48559 0.27182000 0.96235000  -0.00001000 0.06745 
+0.00032000 -0.00009000 1.00000000 -79.38939  
+19  'helical symmetry operation' ? ? 0.95782000  -0.28737000 -0.00036000 0.51418 0.28737000 0.95782000  -0.00001000 0.07555 
+0.00034000 -0.00009000 1.00000000 -84.05936  
+20  'helical symmetry operation' ? ? 0.95304000  -0.30284000 -0.00037000 0.54278 0.30284000 0.95304000  -0.00001000 0.08389 
+0.00036000 -0.00010000 1.00000000 -88.72942  
+21  'helical symmetry operation' ? ? 0.94801000  -0.31823000 -0.00039000 0.57115 0.31823000 0.94801000  -0.00002000 0.09249 
+0.00038000 -0.00011000 1.00000000 -93.39932  
+22  'helical symmetry operation' ? ? 0.94274000  -0.33354000 -0.00041000 0.59962 0.33354000 0.94274000  -0.00002000 0.10198 
+0.00040000 -0.00012000 1.00000000 -98.06947  
+23  'helical symmetry operation' ? ? 0.93721000  -0.34876000 -0.00043000 0.62780 0.34876000 0.93721000  -0.00002000 0.11171 
+0.00041000 -0.00013000 1.00000000 -102.73927 
+24  'helical symmetry operation' ? ? 0.93144000  -0.36389000 -0.00045000 0.65609 0.36389000 0.93144000  -0.00003000 0.12195 
+0.00043000 -0.00014000 1.00000000 -107.40921 
+25  'helical symmetry operation' ? ? 0.92543000  -0.37893000 -0.00047000 0.68455 0.37893000 0.92543000  -0.00003000 0.13268 
+0.00045000 -0.00015000 1.00000000 -112.07950 
+26  'helical symmetry operation' ? ? 0.91917000  -0.39386000 -0.00049000 0.71273 0.39386000 0.91917000  -0.00004000 0.14388 
+0.00047000 -0.00016000 1.00000000 -116.74925 
+27  'helical symmetry operation' ? ? 0.91267000  -0.40869000 -0.00051000 0.74089 0.40869000 0.91267000  -0.00005000 0.15579 
+0.00048000 -0.00017000 1.00000000 -121.41946 
+28  'helical symmetry operation' ? ? 0.90593000  -0.42342000 -0.00053000 0.76866 0.42342000 0.90593000  -0.00005000 0.16759 
+0.00050000 -0.00018000 1.00000000 -126.08916 
+29  'helical symmetry operation' ? ? 0.89896000  -0.43803000 -0.00055000 0.79668 0.43803000 0.89896000  -0.00006000 0.18011 
+0.00052000 -0.00019000 1.00000000 -130.75922 
+30  'helical symmetry operation' ? ? 0.89175000  -0.45253000 -0.00057000 0.82441 0.45253000 0.89175000  -0.00006000 0.19327 
+0.00053000 -0.00020000 1.00000000 -135.42908 
+31  'helical symmetry operation' ? ? 0.88430000  -0.46691000 -0.00058000 0.85202 0.46691000 0.88430000  -0.00007000 0.20672 
+0.00055000 -0.00021000 1.00000000 -140.09924 
+32  'helical symmetry operation' ? ? 0.87663000  -0.48117000 -0.00060000 0.87949 0.48117000 0.87663000  -0.00008000 0.22044 
+0.00057000 -0.00022000 1.00000000 -144.76936 
+33  'helical symmetry operation' ? ? 0.86872000  -0.49530000 -0.00062000 0.90682 0.49530000 0.86872000  -0.00009000 0.23448 
+0.00058000 -0.00023000 1.00000000 -149.43933 
+34  'helical symmetry operation' ? ? 0.86059000  -0.50930000 -0.00064000 0.93403 0.50930000 0.86059000  -0.00009000 0.24912 
+0.00060000 -0.00025000 1.00000000 -154.10921 
+35  'helical symmetry operation' ? ? 0.85223000  -0.52317000 -0.00066000 0.96109 0.52317000 0.85223000  -0.00010000 0.26402 
+0.00061000 -0.00026000 1.00000000 -158.77904 
+36  'helical symmetry operation' ? ? 0.84364000  -0.53690000 -0.00067000 0.98808 0.53690000 0.84364000  -0.00011000 0.27968 
+0.00063000 -0.00027000 1.00000000 -163.44910 
+37  'helical symmetry operation' ? ? 0.83484000  -0.55049000 -0.00069000 1.01490 0.55049000 0.83484000  -0.00012000 0.29571 
+0.00064000 -0.00028000 1.00000000 -168.11902 
+38  'helical symmetry operation' ? ? 0.82582000  -0.56394000 -0.00071000 1.04119 0.56394000 0.82582000  -0.00013000 0.31201 
+0.00066000 -0.00030000 1.00000000 -172.78908 
+39  'helical symmetry operation' ? ? 0.81658000  -0.57724000 -0.00073000 1.06761 0.57724000 0.81658000  -0.00014000 0.32864 
+0.00067000 -0.00031000 1.00000000 -177.45898 
+40  'helical symmetry operation' ? ? 0.80712000  -0.59038000 -0.00074000 1.09387 0.59038000 0.80712000  -0.00015000 0.34604 
+0.00069000 -0.00032000 1.00000000 -182.12900 
+41  'helical symmetry operation' ? ? 0.79746000  -0.60338000 -0.00076000 1.11989 0.60338000 0.79746000  -0.00016000 0.36351 
+0.00070000 -0.00034000 1.00000000 -186.79904 
+42  'helical symmetry operation' ? ? 0.78758000  -0.61621000 -0.00078000 1.14591 0.61621000 0.78758000  -0.00017000 0.38175 
+0.00072000 -0.00035000 1.00000000 -191.46902 
+43  'helical symmetry operation' ? ? 0.77750000  -0.62888000 -0.00080000 1.17142 0.62888000 0.77750000  -0.00018000 0.40002 
+0.00073000 -0.00036000 1.00000000 -196.13901 
+44  'helical symmetry operation' ? ? 0.76722000  -0.64139000 -0.00081000 1.19699 0.64139000 0.76722000  -0.00019000 0.41907 
+0.00074000 -0.00038000 1.00000000 -200.80899 
+45  'helical symmetry operation' ? ? 0.75673000  -0.65373000 -0.00083000 1.22201 0.65373000 0.75673000  -0.00020000 0.43803 
+0.00076000 -0.00039000 1.00000000 -205.47888 
+46  'helical symmetry operation' ? ? 0.74605000  -0.66589000 -0.00085000 1.24709 0.66589000 0.74605000  -0.00021000 0.45745 
+0.00077000 -0.00041000 1.00000000 -210.14893 
+47  'helical symmetry operation' ? ? 0.73517000  -0.67789000 -0.00086000 1.27166 0.67789000 0.73517000  -0.00022000 0.47747 
+0.00078000 -0.00042000 1.00000000 -214.81889 
+48  'helical symmetry operation' ? ? 0.72409000  -0.68970000 -0.00088000 1.29629 0.68970000 0.72409000  -0.00023000 0.49827 
+0.00080000 -0.00044000 1.00000000 -219.48885 
+49  'helical symmetry operation' ? ? 0.71283000  -0.70134000 -0.00089000 1.32049 0.70134000 0.71283000  -0.00024000 0.51891 
+0.00081000 -0.00045000 1.00000000 -224.15883 
+50  'helical symmetry operation' ? ? 0.70138000  -0.71279000 -0.00091000 1.34473 0.71279000 0.70138000  -0.00026000 0.54017 
+0.00082000 -0.00047000 1.00000000 -228.82880 
+51  'helical symmetry operation' ? ? 0.68975000  -0.72405000 -0.00093000 1.36858 0.72405000 0.68975000  -0.00027000 0.56165 
+0.00083000 -0.00048000 1.00000000 -233.49879 
+52  'helical symmetry operation' ? ? 0.67793000  -0.73512000 -0.00094000 1.39199 0.73512000 0.67793000  -0.00028000 0.58332 
+0.00084000 -0.00050000 1.00000000 -238.16875 
+53  'helical symmetry operation' ? ? 0.66594000  -0.74601000 -0.00096000 1.41529 0.74601000 0.66594000  -0.00029000 0.60596 
+0.00086000 -0.00052000 1.00000000 -242.83878 
+54  'helical symmetry operation' ? ? 0.65377000  -0.75669000 -0.00097000 1.43818 0.75669000 0.65377000  -0.00031000 0.62854 
+0.00087000 -0.00053000 1.00000000 -247.50868 
+55  'helical symmetry operation' ? ? 0.64143000  -0.76718000 -0.00098000 1.46074 0.76718000 0.64143000  -0.00032000 0.65164 
+0.00088000 -0.00055000 1.00000000 -252.17865 
+56  'helical symmetry operation' ? ? 0.62893000  -0.77746000 -0.00100000 1.48317 0.77746000 0.62893000  -0.00034000 0.67500 
+0.00089000 -0.00057000 1.00000000 -256.84863 
+57  'helical symmetry operation' ? ? 0.61626000  -0.78755000 -0.00101000 1.50544 0.78755000 0.61626000  -0.00035000 0.69853 
+0.00090000 -0.00058000 1.00000000 -261.51862 
+58  'helical symmetry operation' ? ? 0.60342000  -0.79742000 -0.00103000 1.52721 0.79742000 0.60342000  -0.00036000 0.72238 
+0.00091000 -0.00060000 1.00000000 -266.18860 
+59  'helical symmetry operation' ? ? 0.59043000  -0.80709000 -0.00104000 1.54891 0.80709000 0.59043000  -0.00038000 0.74665 
+0.00092000 -0.00062000 1.00000000 -270.85858 
+60  'helical symmetry operation' ? ? 0.57729000  -0.81654000 -0.00105000 1.56995 0.81654000 0.57729000  -0.00039000 0.77151 
+0.00093000 -0.00063000 1.00000000 -275.52853 
+61  'helical symmetry operation' ? ? 0.56399000  -0.82578000 -0.00107000 1.59092 0.82578000 0.56399000  -0.00041000 0.79661 
+0.00094000 -0.00065000 1.00000000 -280.19849 
+62  'helical symmetry operation' ? ? 0.55054000  -0.83481000 -0.00108000 1.61143 0.83481000 0.55054000  -0.00042000 0.82207 
+0.00095000 -0.00067000 1.00000000 -284.86847 
+63  'helical symmetry operation' ? ? 0.53695000  -0.84361000 -0.00109000 1.63173 0.84361000 0.53695000  -0.00044000 0.84766 
+0.00095000 -0.00069000 1.00000000 -289.53845 
+64  'helical symmetry operation' ? ? 0.52322000  -0.85220000 -0.00111000 1.65169 0.85220000 0.52322000  -0.00045000 0.87375 
+0.00096000 -0.00071000 1.00000000 -294.20837 
+65  'helical symmetry operation' ? ? 0.50935000  -0.86056000 -0.00112000 1.67126 0.86056000 0.50935000  -0.00047000 0.89986 
+0.00097000 -0.00072000 1.00000000 -298.87839 
+66  'helical symmetry operation' ? ? 0.49535000  -0.86869000 -0.00113000 1.69059 0.86869000 0.49535000  -0.00048000 0.92662 
+0.00098000 -0.00074000 1.00000000 -303.54834 
+67  'helical symmetry operation' ? ? 0.48122000  -0.87660000 -0.00114000 1.70950 0.87660000 0.48122000  -0.00050000 0.95363 
+0.00099000 -0.00076000 1.00000000 -308.21832 
+68  'helical symmetry operation' ? ? 0.46696000  -0.88428000 -0.00115000 1.72811 0.88428000 0.46696000  -0.00051000 0.98074 
+0.00099000 -0.00078000 1.00000000 -312.88834 
+69  'helical symmetry operation' ? ? 0.45258000  -0.89172000 -0.00116000 1.74630 0.89172000 0.45259000  -0.00053000 1.00829 
+0.00100000 -0.00080000 1.00000000 -317.55820 
+70  'helical symmetry operation' ? ? 0.43809000  -0.89893000 -0.00117000 1.76426 0.89893000 0.43809000  -0.00055000 1.03567 
+0.00101000 -0.00082000 1.00000000 -322.22821 
+71  'helical symmetry operation' ? ? 0.42347000  -0.90591000 -0.00119000 1.78184 0.90591000 0.42347000  -0.00056000 1.06390 
+0.00101000 -0.00084000 1.00000000 -326.89819 
+72  'helical symmetry operation' ? ? 0.40875000  -0.91265000 -0.00120000 1.79885 0.91265000 0.40875000  -0.00058000 1.09232 
+0.00102000 -0.00085000 1.00000000 -331.56812 
+73  'helical symmetry operation' ? ? 0.39392000  -0.91915000 -0.00121000 1.81572 0.91915000 0.39392000  -0.00060000 1.12071 
+0.00102000 -0.00087000 1.00000000 -336.23810 
+74  'helical symmetry operation' ? ? 0.37898000  -0.92540000 -0.00122000 1.83208 0.92540000 0.37898000  -0.00062000 1.14982 
+0.00103000 -0.00089000 1.00000000 -340.90802 
+75  'helical symmetry operation' ? ? 0.36395000  -0.93142000 -0.00122000 1.84810 0.93142000 0.36395000  -0.00063000 1.17880 
+0.00103000 -0.00091000 1.00000000 -345.57797 
+76  'helical symmetry operation' ? ? 0.34882000  -0.93719000 -0.00123000 1.86386 0.93719000 0.34882000  -0.00065000 1.20790 
+0.00104000 -0.00093000 1.00000000 -350.24802 
+77  'helical symmetry operation' ? ? 0.33360000  -0.94272000 -0.00124000 1.87910 0.94272000 0.33360000  -0.00067000 1.23794 
+0.00104000 -0.00095000 1.00000000 -354.91797 
+78  'helical symmetry operation' ? ? 0.31829000  -0.94799000 -0.00125000 1.89393 0.94799000 0.31829000  -0.00069000 1.26751 
+0.00105000 -0.00097000 1.00000000 -359.58801 
+79  'helical symmetry operation' ? ? 0.30290000  -0.95302000 -0.00126000 1.90839 0.95302000 0.30290000  -0.00070000 1.29781 
+0.00105000 -0.00099000 1.00000000 -364.25787 
+80  'helical symmetry operation' ? ? 0.28742000  -0.95780000 -0.00127000 1.92261 0.95780000 0.28743000  -0.00072000 1.32784 
+0.00106000 -0.00101000 1.00000000 -368.92780 
+81  'helical symmetry operation' ? ? 0.27188000  -0.96233000 -0.00128000 1.93605 0.96233000 0.27188000  -0.00074000 1.35871 
+0.00106000 -0.00103000 1.00000000 -373.59775 
+82  'helical symmetry operation' ? ? 0.25626000  -0.96661000 -0.00128000 1.94974 0.96661000 0.25626000  -0.00076000 1.38895 
+0.00106000 -0.00105000 1.00000000 -378.26770 
+83  'helical symmetry operation' ? ? 0.24057000  -0.97063000 -0.00129000 1.96240 0.97063000 0.24057000  -0.00078000 1.42005 
+0.00106000 -0.00107000 1.00000000 -382.93768 
+84  'helical symmetry operation' ? ? 0.22483000  -0.97440000 -0.00130000 1.97498 0.97440000 0.22483000  -0.00079000 1.45068 
+0.00107000 -0.00109000 1.00000000 -387.60776 
+85  'helical symmetry operation' ? ? 0.20902000  -0.97791000 -0.00130000 1.98700 0.97791000 0.20902000  -0.00081000 1.48234 
+0.00107000 -0.00111000 1.00000000 -392.27765 
+86  'helical symmetry operation' ? ? 0.19316000  -0.98117000 -0.00131000 1.99873 0.98117000 0.19316000  -0.00083000 1.51363 
+0.00107000 -0.00113000 1.00000000 -396.94775 
+87  'helical symmetry operation' ? ? 0.17724000  -0.98417000 -0.00132000 2.01013 0.98417000 0.17724000  -0.00085000 1.54506 
+0.00107000 -0.00115000 1.00000000 -401.61780 
+88  'helical symmetry operation' ? ? 0.16128000  -0.98691000 -0.00132000 2.02079 0.98691000 0.16129000  -0.00087000 1.57704 
+0.00107000 -0.00117000 1.00000000 -406.28741 
+89  'helical symmetry operation' ? ? 0.14528000  -0.98939000 -0.00133000 2.03129 0.98939000 0.14528000  -0.00089000 1.60893 
+0.00107000 -0.00119000 1.00000000 -410.95764 
+90  'helical symmetry operation' ? ? 0.12924000  -0.99161000 -0.00133000 2.04096 0.99161000 0.12924000  -0.00091000 1.64118 
+0.00107000 -0.00120000 1.00000000 -415.62762 
+91  'helical symmetry operation' ? ? 0.11317000  -0.99357000 -0.00134000 2.05060 0.99358000 0.11317000  -0.00093000 1.67329 
+0.00107000 -0.00122000 1.00000000 -420.29730 
+92  'helical symmetry operation' ? ? 0.09707000  -0.99528000 -0.00134000 2.05968 0.99528000 0.09707000  -0.00095000 1.70589 
+0.00107000 -0.00124000 1.00000000 -424.96729 
+93  'helical symmetry operation' ? ? 0.08094000  -0.99672000 -0.00135000 2.06854 0.99672000 0.08094000  -0.00097000 1.73808 
+0.00107000 -0.00127000 1.00000000 -429.63739 
+94  'helical symmetry operation' ? ? 0.06479000  -0.99790000 -0.00135000 2.07644 0.99790000 0.06479000  -0.00099000 1.77106 
+0.00107000 -0.00128000 1.00000000 -434.30731 
+95  'helical symmetry operation' ? ? 0.04862000  -0.99882000 -0.00135000 2.08426 0.99882000 0.04862000  -0.00100000 1.80364 
+0.00107000 -0.00130000 1.00000000 -438.97723 
+96  'helical symmetry operation' ? ? 0.03244000  -0.99947000 -0.00136000 2.09165 0.99947000 0.03244000  -0.00102000 1.83653 
+0.00107000 -0.00132000 1.00000000 -443.64722 
+97  'helical symmetry operation' ? ? 0.01625000  -0.99987000 -0.00136000 2.09849 0.99987000 0.01625000  -0.00104000 1.86951 
+0.00107000 -0.00134000 1.00000000 -448.31714 
+98  'helical symmetry operation' ? ? 0.00006000  -1.00000000 -0.00136000 2.10475 1.00000000 0.00006000  -0.00106000 1.90278 
+0.00106000 -0.00136000 1.00000000 -452.98718 
+99  'helical symmetry operation' ? ? -0.01613000 -0.99987000 -0.00136000 2.11099 0.99987000 -0.01613000 -0.00108000 1.93572 
+0.00106000 -0.00138000 1.00000000 -457.65717 
+100 'helical symmetry operation' ? ? -0.03232000 -0.99948000 -0.00137000 2.11667 0.99948000 -0.03232000 -0.00110000 1.96895 
+0.00106000 -0.00140000 1.00000000 -462.32727 
+101 'helical symmetry operation' ? ? -0.04850000 -0.99882000 -0.00137000 2.12164 0.99882000 -0.04850000 -0.00112000 2.00234 
+0.00106000 -0.00142000 1.00000000 -466.99710 
+102 'helical symmetry operation' ? ? -0.06467000 -0.99791000 -0.00137000 2.12629 0.99791000 -0.06467000 -0.00114000 2.03571 
+0.00105000 -0.00144000 1.00000000 -471.66724 
+103 'helical symmetry operation' ? ? -0.08082000 -0.99673000 -0.00137000 2.13062 0.99673000 -0.08082000 -0.00116000 2.06912 
+0.00105000 -0.00146000 1.00000000 -476.33698 
+104 'helical symmetry operation' ? ? -0.09695000 -0.99529000 -0.00137000 2.13438 0.99529000 -0.09695000 -0.00118000 2.10266 
+0.00104000 -0.00148000 1.00000000 -481.00696 
+105 'helical symmetry operation' ? ? -0.11305000 -0.99359000 -0.00137000 2.13778 0.99359000 -0.11305000 -0.00120000 2.13617 
+0.00104000 -0.00150000 1.00000000 -485.67694 
+106 'helical symmetry operation' ? ? -0.12912000 -0.99163000 -0.00137000 2.14078 0.99163000 -0.12912000 -0.00122000 2.16974 
+0.00103000 -0.00152000 1.00000000 -490.34662 
+107 'helical symmetry operation' ? ? -0.14516000 -0.98941000 -0.00137000 2.14320 0.98941000 -0.14516000 -0.00124000 2.20347 
+0.00103000 -0.00154000 1.00000000 -495.01685 
+108 'helical symmetry operation' ? ? -0.16117000 -0.98693000 -0.00137000 2.14529 0.98693000 -0.16116000 -0.00126000 2.23666 
+0.00102000 -0.00156000 1.00000000 -499.68683 
+109 'helical symmetry operation' ? ? -0.17713000 -0.98419000 -0.00137000 2.14660 0.98419000 -0.17712000 -0.00128000 2.27075 
+0.00102000 -0.00158000 1.00000000 -504.35693 
+110 'helical symmetry operation' ? ? -0.19304000 -0.98119000 -0.00137000 2.14755 0.98119000 -0.19304000 -0.00130000 2.30440 
+0.00101000 -0.00159000 1.00000000 -509.02692 
+111 'helical symmetry operation' ? ? -0.20890000 -0.97794000 -0.00137000 2.14812 0.97794000 -0.20890000 -0.00132000 2.33815 
+0.00101000 -0.00161000 1.00000000 -513.69678 
+112 'helical symmetry operation' ? ? -0.22471000 -0.97442000 -0.00137000 2.14827 0.97443000 -0.22471000 -0.00134000 2.37172 
+0.00100000 -0.00163000 1.00000000 -518.36658 
+113 'helical symmetry operation' ? ? -0.24046000 -0.97066000 -0.00136000 2.14801 0.97066000 -0.24046000 -0.00136000 2.40542 
+0.00099000 -0.00165000 1.00000000 -523.03656 
+114 'helical symmetry operation' ? ? -0.25614000 -0.96664000 -0.00136000 2.14710 0.96664000 -0.25614000 -0.00138000 2.43910 
+0.00099000 -0.00167000 1.00000000 -527.70660 
+# 
+_pdbx_helical_symmetry.entry_id                  2M5M 
+_pdbx_helical_symmetry.number_of_operations      114 
+_pdbx_helical_symmetry.rotation_per_n_subunits   -0.93 
+_pdbx_helical_symmetry.rise_per_n_subunits       4.67 
+_pdbx_helical_symmetry.n_subunits_divisor        1 
+_pdbx_helical_symmetry.dyad_axis                 no 
+_pdbx_helical_symmetry.circular_symmetry         1 
+# 
+loop_
+_pdbx_audit_revision_history.ordinal 
+_pdbx_audit_revision_history.data_content_type 
+_pdbx_audit_revision_history.major_revision 
+_pdbx_audit_revision_history.minor_revision 
+_pdbx_audit_revision_history.revision_date 
+1 'Structure model' 1 0 2013-12-04 
+2 'Structure model' 1 1 2018-07-18 
+3 'Structure model' 1 2 2020-02-26 
+# 
+_pdbx_audit_revision_details.ordinal             1 
+_pdbx_audit_revision_details.revision_ordinal    1 
+_pdbx_audit_revision_details.data_content_type   'Structure model' 
+_pdbx_audit_revision_details.provider            repository 
+_pdbx_audit_revision_details.type                'Initial release' 
+_pdbx_audit_revision_details.description         ? 
+_pdbx_audit_revision_details.details             ? 
+# 
+loop_
+_pdbx_audit_revision_group.ordinal 
+_pdbx_audit_revision_group.revision_ordinal 
+_pdbx_audit_revision_group.data_content_type 
+_pdbx_audit_revision_group.group 
+1 2 'Structure model' 'Author supporting evidence' 
+2 2 'Structure model' 'Data collection'            
+3 3 'Structure model' Other                        
+# 
+loop_
+_pdbx_audit_revision_category.ordinal 
+_pdbx_audit_revision_category.revision_ordinal 
+_pdbx_audit_revision_category.data_content_type 
+_pdbx_audit_revision_category.category 
+1 2 'Structure model' em_single_particle_entity 
+2 2 'Structure model' em_software               
+3 3 'Structure model' pdbx_database_status      
+# 
+loop_
+_pdbx_audit_revision_item.ordinal 
+_pdbx_audit_revision_item.revision_ordinal 
+_pdbx_audit_revision_item.data_content_type 
+_pdbx_audit_revision_item.item 
+1 2 'Structure model' '_em_software.image_processing_id'     
+2 3 'Structure model' '_pdbx_database_status.status_code_cs' 
+# 
+_pdbx_nmr_exptl_sample.component             'TTR(105-115)-1' 
+_pdbx_nmr_exptl_sample.concentration         15 
+_pdbx_nmr_exptl_sample.concentration_range   ? 
+_pdbx_nmr_exptl_sample.concentration_units   mg/mL 
+_pdbx_nmr_exptl_sample.isotopic_labeling     '[U-100% 13C; U-100% 15N]' 
+_pdbx_nmr_exptl_sample.solution_id           1 
+# 
+_em_3d_fitting.id                1 
+_em_3d_fitting.entry_id          2M5M 
+_em_3d_fitting.ref_protocol      ? 
+_em_3d_fitting.ref_space         ? 
+_em_3d_fitting.overall_b_value   ? 
+_em_3d_fitting.target_criteria   ? 
+_em_3d_fitting.details           ? 
+_em_3d_fitting.method            ? 
+# 
+_em_3d_reconstruction.entry_id                    2M5M 
+_em_3d_reconstruction.id                          1 
+_em_3d_reconstruction.resolution_method           'FSC 0.5 CUT-OFF' 
+_em_3d_reconstruction.symmetry_type               HELICAL 
+_em_3d_reconstruction.image_processing_id         1 
+_em_3d_reconstruction.method                      'Common crossovers' 
+_em_3d_reconstruction.nominal_pixel_size          1.8 
+_em_3d_reconstruction.actual_pixel_size           1.8 
+_em_3d_reconstruction.resolution                  12.2 
+_em_3d_reconstruction.magnification_calibration   ? 
+_em_3d_reconstruction.details                     'The particles were selected using an automatic selection program.' 
+_em_3d_reconstruction.num_particles               152 
+_em_3d_reconstruction.num_class_averages          28 
+_em_3d_reconstruction.algorithm                   ? 
+# 
+_em_buffer.id            1 
+_em_buffer.specimen_id   1 
+_em_buffer.name          '10% acetonitrile/water' 
+_em_buffer.pH            2 
+_em_buffer.details       '10% acetonitrile/water' 
+# 
+_em_entity_assembly.id                   1 
+_em_entity_assembly.name                 'Triplet cross-beta amyloid fibril polymorph' 
+_em_entity_assembly.type                 COMPLEX 
+_em_entity_assembly.parent_id            0 
+_em_entity_assembly.synonym              ? 
+_em_entity_assembly.details              ? 
+_em_entity_assembly.oligomeric_details   ? 
+# 
+_em_image_scans.entry_id                2M5M 
+_em_image_scans.id                      1 
+_em_image_scans.image_recording_id      1 
+_em_image_scans.number_digital_images   250 
+_em_image_scans.citation_id             ? 
+_em_image_scans.od_range                ? 
+_em_image_scans.quant_bit_size          ? 
+_em_image_scans.sampling_size           ? 
+_em_image_scans.scanner_model           ? 
+_em_image_scans.details                 ? 
+# 
+_em_imaging.entry_id                        2M5M 
+_em_imaging.id                              1 
+_em_imaging.date                            2006-03-03 
+_em_imaging.specimen_id                     1 
+_em_imaging.temperature                     99 
+_em_imaging.microscope_model                'FEI TECNAI F20' 
+_em_imaging.nominal_defocus_min             900 
+_em_imaging.nominal_defocus_max             3000 
+_em_imaging.tilt_angle_min                  0 
+_em_imaging.tilt_angle_max                  0 
+_em_imaging.nominal_cs                      ? 
+_em_imaging.mode                            'BRIGHT FIELD' 
+_em_imaging.illumination_mode               'FLOOD BEAM' 
+_em_imaging.nominal_magnification           40000 
+_em_imaging.calibrated_magnification        40000 
+_em_imaging.electron_source                 'FIELD EMISSION GUN' 
+_em_imaging.accelerating_voltage            200 
+_em_imaging.details                         ? 
+_em_imaging.specimen_holder_type            ? 
+_em_imaging.specimen_holder_model           'GATAN LIQUID NITROGEN' 
+_em_imaging.recording_temperature_minimum   ? 
+_em_imaging.recording_temperature_maximum   ? 
+_em_imaging.detector_distance               ? 
+_em_imaging.electron_beam_tilt_params       0 
+_em_imaging.astigmatism                     'Objective lens astigmatism was corrected at 100,000 times magnification.' 
+_em_imaging.citation_id                     ? 
+# 
+_em_sample_support.id               1 
+_em_sample_support.specimen_id      1 
+_em_sample_support.details          'holey carbon films (R2/2, QuantifoilMicro Tools GmbH, Jena, Germany)' 
+_em_sample_support.film_material    ? 
+_em_sample_support.grid_material    ? 
+_em_sample_support.grid_mesh_size   ? 
+_em_sample_support.grid_type        ? 
+_em_sample_support.method           ? 
+# 
+_em_vitrification.entry_id              2M5M 
+_em_vitrification.id                    1 
+_em_vitrification.details               
+'Fibrils were applied to holey carbon films that were immediately plunge-frozen at liquid nitrogen temperature.' 
+_em_vitrification.cryogen_name          ETHANE 
+_em_vitrification.humidity              95 
+_em_vitrification.temp                  99 
+_em_vitrification.instrument            'HOMEMADE PLUNGER' 
+_em_vitrification.method                ? 
+_em_vitrification.time_resolved_state   ? 
+_em_vitrification.citation_id           ? 
+_em_vitrification.specimen_id           1 
+# 
+_em_experiment.entry_id                2M5M 
+_em_experiment.id                      1 
+_em_experiment.aggregation_state       FILAMENT 
+_em_experiment.entity_assembly_id      1 
+_em_experiment.reconstruction_method   'SINGLE PARTICLE' 
+# 
+_em_ctf_correction.id        1 
+_em_ctf_correction.details   CTFFIND3 
+_em_ctf_correction.type      . 
+# 
+_em_image_processing.id                   1 
+_em_image_processing.image_recording_id   1 
+_em_image_processing.details              ? 
+# 
+_em_image_recording.avg_electron_dose_per_image   . 
+_em_image_recording.details                       ? 
+_em_image_recording.id                            1 
+_em_image_recording.film_or_detector_model        'KODAK SO-163 FILM' 
+_em_image_recording.imaging_id                    1 
+_em_image_recording.detector_mode                 ? 
+_em_image_recording.average_exposure_time         ? 
+_em_image_recording.num_diffraction_images        ? 
+_em_image_recording.num_grids_imaged              ? 
+_em_image_recording.num_real_images               ? 
+# 
+loop_
+_em_software.id 
+_em_software.name 
+_em_software.version 
+_em_software.category 
+_em_software.details 
+_em_software.image_processing_id 
+1 BKRP   ? RECONSTRUCTION ? 1 
+2 IMAGIC ? RECONSTRUCTION ? 1 
+3 SPIDER ? RECONSTRUCTION ? 1 
+# 
+_em_specimen.experiment_id           1 
+_em_specimen.id                      1 
+_em_specimen.concentration           1 
+_em_specimen.vitrification_applied   YES 
+_em_specimen.staining_applied        NO 
+_em_specimen.embedding_applied       NO 
+_em_specimen.shadowing_applied       NO 
+_em_specimen.details                 ? 
+# 

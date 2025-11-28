@@ -1,0 +1,79 @@
+.access_contain {
+  min-height: 100vh;
+  .access_head {
+    width: 100vw;
+    padding: 24px 0;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    .headerImg {
+      position: absolute;
+      object-fit: cover;
+      z-index: -1;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
+    .logo {
+      margin-left: 181px;
+      height: 79px;
+      @media (max-width: 768px) {
+        margin-left: 24px;
+      }
+    }
+    .switch {
+      margin-right: 181px;
+      @media (max-width: 768px) {
+        margin-right: 24px;
+      }
+    }
+  }
+  .theme_line {
+    background-color: var(--primary-color);
+    height: 6px;
+    width: 100vw;
+  }
+  .access_box {
+    position: fixed;
+    top: 160px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 18px;
+  }
+  .access_card {
+    width: 520px;
+    max-width: 520px;
+    padding: 32px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.06);
+    @media (max-width: 768px) {
+      width: 90vw;
+      max-width: 90vw;
+      padding: 37px 24px;
+    }
+  }
+  .tips {
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 40px;
+  }
+  .code_box {
+    margin-top: 64px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    color: rgba(0, 0, 0, 1);
+    .code {
+      width: 100px;
+      height: 100px;
+      min-width: 100px;
+      min-height: 100px;
+      margin-right: 12px;
+    }
+  }
+}

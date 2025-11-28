@@ -1,0 +1,33 @@
++ */
++ 103d*
++ 1at9*
++ 1cek*
++ 1vcx*
++ 2ou8*
++ 5hix*
++ 6iy9*
++ 6ppb*
++ 6v8s*
++ 6w2d*
++ 7bqx*
++ 7qcn*
++ 7txt*
++ 7u4c*
++ 7uk0*
++ 7up1*
++ 7wwa*
++ 7x9k*
++ 7x9n*
++ 8c90*
++ 8c9a*
++ 8d3t*
++ 8dsd*
++ 8ed0*
++ 8ela*
++ 8en1*
++ 8id9*
++ pub/pdb/refdata/chem_comp/*/*.cif
+- *
+
+
+

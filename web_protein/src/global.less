@@ -1,0 +1,355 @@
+@font-face {
+  font-family: 'ARIAL';
+  src: url('./assets/fonts/arial-cufonfonts/ARIAL.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  word-break: break-word;
+  font-family: 'ARIAL';
+}
+
+.iconfont {
+  font-weight: normal !important;
+}
+
+img {
+  user-select: none;
+}
+
+/**
+ 添加此处代码是为了解决lmostar带来的页面滚动失效的问题
+*/
+body {
+  overflow: auto !important;
+  overflow-y: auto !important;
+  position: relative !important;
+}
+
+/**
+ 主题相关的配置
+*/
+:root {
+  --red-deep-color: rgba(162, 26, 32, 1);
+  --green-deep-color: rgba(56, 87, 35, 1);
+  --blue-deep-color: rgba(32, 56, 100, 1);
+  --yellow-deep-color: rgba(176, 119, 54, 1);
+  --red-middle-color: rgba(192, 0, 0, 1);
+  --green-middle-color: rgba(27, 129, 62, 1);
+  --blue-middle-color: rgba(0, 92, 175, 1);
+  --yellow-middle-color: rgba(235, 177, 13, 1);
+  --red-shallow-color: rgba(230, 46, 66, 1);
+  --green-shallow-color: rgba(80, 179, 126, 1);
+  --blue-shallow-color: rgba(89, 157, 227, 1);
+  --yellow-shallow-color: rgba(217, 205, 144, 1);
+  --text-main-color: rgba(255, 255, 255, 1); //主题色块内的文字颜色
+  --text-color: rgba(51, 51, 51, 1); //主要文案颜色
+  --text-desc-color: rgba(102, 102, 102, 1); //简要文字颜色
+  --text-mini-color: rgba(153, 153, 153, 1); //描述文字颜色
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  border: 1px solid #dedede;
+}
+
+//深
+.red_deep_theme {
+  --primary-color: var(--red-deep-color);
+  --copy-right-color: #8e171c;
+  --register-button-bg: var(--red-deep-color);
+  --entry-id-header_bg: rgba(162, 26, 32, 0.1);
+  a {
+    color: var(--red-deep-color);
+  }
+}
+.green_deep_theme {
+  --primary-color: var(--green-deep-color);
+  --copy-right-color: #2a421b;
+  --register-button-bg: var(--green-deep-color);
+  --entry-id-header_bg: rgba(56, 87, 35, 0.1);
+  a {
+    color: var(--green-deep-color);
+  }
+}
+.blue_deep_theme {
+  --primary-color: var(--blue-deep-color);
+  --copy-right-color: #1a2e54;
+  --register-button-bg: var(--blue-deep-color);
+  --entry-id-header_bg: rgba(32, 56, 100, 0.1);
+  a {
+    color: var(--blue-deep-color);
+  }
+}
+.yellow_deep_theme {
+  --primary-color: var(--yellow-deep-color);
+  --copy-right-color: #8b5f2c;
+  --register-button-bg: var(--yellow-deep-color);
+  --entry-id-header_bg: rgba(176, 119, 54, 0.1);
+  a {
+    color: var(--yellow-deep-color);
+  }
+}
+//中
+.red_middle_theme {
+  --primary-color: var(--red-middle-color);
+  --copy-right-color: rgba(161, 0, 0, 1);
+  --register-button-bg: var(--red-middle-color);
+  --entry-id-header_bg: rgba(192, 0, 0, 0.1);
+  a {
+    color: var(--red-middle-color);
+  }
+}
+.green_middle_theme {
+  --primary-color: var(--green-middle-color);
+  --copy-right-color: rgba(27, 102, 62, 1);
+  --register-button-bg: var(--green-middle-color);
+  --entry-id-header_bg: rgba(27, 129, 62, 0.1);
+  a {
+    color: var(--green-middle-color);
+  }
+}
+.blue_middle_theme {
+  --primary-color: var(--blue-middle-color);
+  --copy-right-color: rgba(23, 83, 143, 1);
+  --register-button-bg: var(--blue-middle-color);
+  --entry-id-header_bg: rgba(0, 92, 175, 0.1);
+  a {
+    color: var(--blue-middle-color);
+  }
+}
+.yellow_middle_theme {
+  --primary-color: var(--yellow-middle-color);
+  --copy-right-color: rgba(219, 147, 39, 1);
+  --register-button-bg: var(--yellow-middle-color);
+  --entry-id-header_bg: rgba(235, 177, 13, 0.1);
+  a {
+    color: var(--yellow-middle-color);
+  }
+}
+//浅
+.red_shallow_theme {
+  --primary-color: var(--red-shallow-color);
+  --copy-right-color: rgba(176, 32, 49, 1);
+  --register-button-bg: var(--red-shallow-color);
+  --entry-id-header_bg: rgba(230, 46, 66, 0.1);
+  a {
+    color: var(--red-shallow-color);
+  }
+}
+.green_shallow_theme {
+  --primary-color: var(--green-shallow-color);
+  --copy-right-color: rgba(45, 145, 92, 1);
+  --register-button-bg: var(--green-shallow-color);
+  --entry-id-header_bg: rgba(80, 179, 126, 0.1);
+  a {
+    color: var(--green-shallow-color);
+  }
+}
+.blue_shallow_theme {
+  --primary-color: var(--blue-shallow-color);
+  --copy-right-color: rgba(55, 113, 171, 1);
+  --register-button-bg: var(--blue-shallow-color);
+  --entry-id-header_bg: rgba(89, 157, 227, 0.1);
+  a {
+    color: var(--blue-shallow-color);
+  }
+}
+.yellow_shallow_theme {
+  --primary-color: var(--yellow-shallow-color);
+  --copy-right-color: rgba(173, 161, 66, 1);
+  --register-button-bg: var(--yellow-shallow-color);
+  --entry-id-header_bg: rgba(217, 205, 144, 0.1);
+  a {
+    color: var(--yellow-shallow-color);
+  }
+}
+//黑白
+.gray_page {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
+  -webkit-filter: grayscale(1);
+}
+
+/**
+ 覆盖原生标签的样式
+*/
+hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-color: #ddd;
+  opacity: 0.35;
+}
+h1 {
+  font-size: 36px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 15px;
+}
+table {
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  overflow-x: auto;
+  border-color: #ddd;
+  border: none !important;
+  -webkit-border-horizontal-spacing: 0px !important;
+  -webkit-border-vertical-spacing: 0px !important;
+  th {
+    padding: 5px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    text-align: left;
+  }
+  td {
+    padding: 5px;
+  }
+}
+
+/**
+ 通用样式类
+*/
+.global_underline {
+  text-decoration: underline;
+}
+.global_hover_underline:hover {
+  text-decoration: underline;
+}
+.global_ul {
+  list-style: none;
+}
+.global_tr_bg {
+  background-color: #f5f5f5;
+  font-weight: bold;
+}
+.global_entry_header {
+  padding: 10px 15px;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  color: #fff;
+  background-color: var(--primary-color);
+  border-color: #ddd;
+  font-size: 14px;
+  font-weight: bold;
+}
+.global_entry_body {
+  width: 100%;
+  overflow: hidden;
+  overflow-x: auto;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-top: none;
+}
+.global_row_start {
+  display: flex;
+  align-items: center;
+}
+.global_row_space {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-default {
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+  color: #333;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  display: inline-block;
+  cursor: pointer;
+  white-space: nowrap;
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+}
+.empty_content {
+  padding: 88px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+// 页面：unreleased/:id
+.well-sm {
+  padding: 9px;
+  border-radius: 3px;
+}
+.well {
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+.greenStatus {
+  color: #22a030;
+}
+.redStatus {
+  color: #da1222;
+}
+
+// 页面：chemical-sketch
+.panel {
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+.panel-heading {
+  color: #333;
+  background-color: #f5f5f5;
+  border-color: #ddd;
+  padding: 10px 15px;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+.panel-body {
+  padding: 15px;
+  overflow: hidden;
+  overflow-x: auto;
+  @media (max-width: 768px) {
+    table {
+      white-space: nowrap !important;
+    }
+  }
+}
+
+// /**移动端表格样式**/
+.rows_table_item {
+  width: 100%;
+  overflow: hidden;
+  overflow-x: auto;
+  font-size: 12px;
+}
+
+.ql-editor {
+  padding: 0 !important;
+  text-align: inherit !important;
+}

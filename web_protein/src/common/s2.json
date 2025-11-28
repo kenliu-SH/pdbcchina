@@ -1,0 +1,38 @@
+{
+  "query": {
+    "type": "group",
+    "logical_operator": "and",
+    "nodes": [
+      {
+        "type": "group",
+        "logical_operator": "and",
+        "nodes": [
+          {
+            "type": "group",
+            "nodes": [
+              {
+                "type": "terminal",
+                "service": "text",
+                "parameters": {
+                  "attribute": "pdbx_deposit_group.group_id",
+                  "operator": "exists",
+                  "negation": false
+                }
+              }
+            ],
+            "logical_operator": "and"
+          }
+        ],
+        "label": "text"
+      }
+    ]
+  },
+  "return_type": "entry",
+  "request_options": {
+    "paginate": { "start": 0, "rows": 25 },
+    "results_content_type": ["experimental"],
+    "sort": [{ "sort_by": "score", "direction": "desc" }],
+    "scoring_strategy": "combined"
+  },
+  "request_info": { "query_id": "28d301466f46aab3b10755082e38baef" }
+}

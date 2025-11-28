@@ -1,0 +1,84 @@
+@import '~antd/es/style/variable.less';
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+.colorWeak {
+  filter: invert(80%);
+}
+
+.ant-layout {
+  min-height: 100vh;
+}
+.ant-pro-sider.ant-layout-sider.ant-pro-sider-fixed {
+  left: unset;
+}
+
+canvas {
+  display: block;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+@media (max-width: @screen-xs) {
+  .ant-table {
+    width: 100%;
+    overflow-x: auto;
+    &-thead > tr,
+    &-tbody > tr {
+      > th,
+      > td {
+        white-space: pre;
+        > span {
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+// Compatible with IE11
+@media screen and(-ms-high-contrast: active), (-ms-high-contrast: none) {
+  body .ant-design-pro > .ant-layout {
+    min-height: 100vh;
+  }
+}
+
+.w-e-toolbar,
+.w-e-scroll {
+  background-color: #f8f8f8 !important;
+}
+
+//解决拖拽表格的拖拽动画不显示的问题
+.row-dragging {
+  z-index: 10000 !important;
+  background: #fafafa;
+  border: 1px solid #ccc;
+}
+.row-dragging td {
+  padding: 16px;
+}
+.row-dragging .drag-visible {
+  visibility: visible;
+}
+.ant-pro-footer-bar-left {
+  display: none;
+}
+.footer_form_mainItem {
+  .ant-upload-list-picture .ant-upload-list-item,
+  .ant-upload-list-picture-card .ant-upload-list-item {
+    background-color: rgba(0, 0, 0, 0.65);
+  }
+}
